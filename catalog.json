@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/VibeMG/awesome-vmg",
+  "families": [
+    {
+      "id": "order-type",
+      "name": "秩序与排版"
+    },
+    {
+      "id": "space-material",
+      "name": "空间与材质"
+    },
+    {
+      "id": "image-graphic",
+      "name": "影像与图形"
+    },
+    {
+      "id": "culture-ornament",
+      "name": "文化与装饰"
+    },
+    {
+      "id": "retro-interface",
+      "name": "复古与虚构界面"
+    },
+    {
+      "id": "experimental-abstract",
+      "name": "实验与抽象"
+    }
+  ],
+  "priority_meaning": {
+    "preferred": "需求不明确时更常用的起点",
+    "regular": "正常候选，场景适合时可优先",
+    "exploratory": "需求不明确时适度降低主动推荐；用户指定或场景适合时可优先"
+  },
+  "styles": [
+    {
+      "id": "S01",
+      "name": "清爽商务",
+      "name_en": "Clean business",
+      "family_id": "order-type",
+      "default_priority": "preferred",
+      "description": "浅色背景中的标题、数字和业务信息",
+      "reference_ids": [
+        "W05",
+        "W06",
+        "T03",
+        "V15"
+      ],
+      "entry_path": "styles.md#s01"
+    },
+    {
+      "id": "S02",
+      "name": "深色商务",
+      "name_en": "Dark business",
+      "family_id": "order-type",
+      "default_priority": "preferred",
+      "description": "深色背景中的标题、数据、品牌信息和界面",
+      "reference_ids": [
+        "W01",
+        "T01"
+      ],
+      "entry_path": "styles.md#s02"
+    },
+    {
+      "id": "S03",
+      "name": "编辑排版",
+      "name_en": "Editorial typography",
+      "family_id": "order-type",
+      "default_priority": "preferred",
+      "description": "文字与版面本身，接近杂志专题或发布会标题页",
+      "reference_ids": [
+        "V06",
+        "W13"
+      ],
+      "entry_path": "styles.md#s03"
+    },
+    {
+      "id": "S04",
+      "name": "线性科技",
+      "name_en": "Linear technology",
+      "family_id": "order-type",
+      "default_priority": "preferred",
+      "description": "用节点、路径、细线和网格画清系统关系",
+      "reference_ids": [
+        "V06",
+        "W05"
+      ],
+      "entry_path": "styles.md#s04"
+    },
+    {
+      "id": "S05",
+      "name": "纯净产品",
+      "name_en": "Clean product",
+      "family_id": "space-material",
+      "default_priority": "preferred",
+      "description": "浅色空间中的产品或软件界面主体",
+      "reference_ids": [
+        "W02",
+        "V01",
+        "T02",
+        "V21"
+      ],
+      "entry_path": "styles.md#s05"
+    },
+    {
+      "id": "S06",
+      "name": "暗场产品",
+      "name_en": "Dark product",
+      "family_id": "space-material",
+      "default_priority": "preferred",
+      "description": "暗场中产品的轮廓、形体和表面",
+      "reference_ids": [
+        "V20",
+        "V04"
+      ],
+      "entry_path": "styles.md#s06"
+    },
+    {
+      "id": "S07",
+      "name": "明快产品",
+      "name_en": "Vibrant product",
+      "family_id": "space-material",
+      "default_priority": "preferred",
+      "description": "大块品牌色、产品与文字之间的鲜明关系",
+      "reference_ids": [
+        "V05",
+        "V07",
+        "T02"
+      ],
+      "entry_path": "styles.md#s07"
+    },
+    {
+      "id": "S08",
+      "name": "柔光科技",
+      "name_en": "Soft-light technology",
+      "family_id": "space-material",
+      "default_priority": "preferred",
+      "description": "柔和形体、漫射光与半透明材料构成的空间",
+      "reference_ids": [
+        "V02",
+        "V03"
+      ],
+      "entry_path": "styles.md#s08"
+    },
+    {
+      "id": "S09-A",
+      "name": "实体拟物",
+      "name_en": "Physical skeuomorphism",
+      "family_id": "space-material",
+      "default_priority": "regular",
+      "description": "数字物件保留真实纸张、按钮、开关或仪器的结构与操作感",
+      "reference_ids": [
+        "W15",
+        "W16",
+        "W03"
+      ],
+      "entry_path": "styles.md#s09-a"
+    },
+    {
+      "id": "S09-B",
+      "name": "材质写实",
+      "name_en": "Material realism",
+      "family_id": "space-material",
+      "default_priority": "regular",
+      "description": "通过光线、表面纹理、反射和形变表现真实物体；可涵盖金属、玻璃、纸张、织物等",
+      "reference_ids": [
+        "V20",
+        "V21",
+        "V22"
+      ],
+      "entry_path": "styles.md#s09-b"
+    },
+    {
+      "id": "S10",
+      "name": "玩具微缩",
+      "name_en": "Miniature and clay",
+      "family_id": "space-material",
+      "default_priority": "regular",
+      "description": "像桌面上的模型、黏土或小型场景，形体圆润或有手作痕迹",
+      "reference_ids": [
+        "W10",
+        "V17",
+        "V19"
+      ],
+      "entry_path": "styles.md#s10"
+    },
+    {
+      "id": "S11",
+      "name": "影像商务",
+      "name_en": "Live-action business",
+      "family_id": "image-graphic",
+      "default_priority": "preferred",
+      "description": "实拍人物、场景或产品与简明文字的结合",
+      "reference_ids": [
+        "W14",
+        "T01"
+      ],
+      "entry_path": "styles.md#s11"
+    },
+    {
+      "id": "S12",
+      "name": "几何构成",
+      "name_en": "Geometric composition",
+      "family_id": "image-graphic",
+      "default_priority": "regular",
+      "description": "圆、线、色块和网格形成有秩序的画面，承接包豪斯等构成语言",
+      "reference_ids": [
+        "V06",
+        "V07"
+      ],
+      "entry_path": "styles.md#s12"
+    },
+    {
+      "id": "S13",
+      "name": "友好插画",
+      "name_en": "Friendly illustration",
+      "family_id": "image-graphic",
+      "default_priority": "regular",
+      "description": "易辨认的角色、物件和柔和图形，表达亲切",
+      "reference_ids": [
+        "V09",
+        "V16"
+      ],
+      "entry_path": "styles.md#s13"
+    },
+    {
+      "id": "S14",
+      "name": "纸艺拼贴",
+      "name_en": "Paper collage",
+      "family_id": "image-graphic",
+      "default_priority": "regular",
+      "description": "纸张、剪贴照片、手写或拼装图形，保留制作痕迹",
+      "reference_ids": [
+        "V08",
+        "V19"
+      ],
+      "entry_path": "styles.md#s14"
+    },
+    {
+      "id": "S15",
+      "name": "波普漫画",
+      "name_en": "Pop comics",
+      "family_id": "image-graphic",
+      "default_priority": "regular",
+      "description": "漫画分格、网点、描边和夸张文字，信息具有冲击力",
+      "reference_ids": [
+        "V11"
+      ],
+      "entry_path": "styles.md#s15"
+    },
+    {
+      "id": "S16",
+      "name": "复古印刷",
+      "name_en": "Retro print",
+      "family_id": "image-graphic",
+      "default_priority": "regular",
+      "description": "套色、颗粒、油墨或喷绘质感，像海报与旧唱片封面",
+      "reference_ids": [
+        "V10"
+      ],
+      "entry_path": "styles.md#s16"
+    },
+    {
+      "id": "S17",
+      "name": "装饰艺术",
+      "name_en": "Art Deco",
+      "family_id": "culture-ornament",
+      "default_priority": "regular",
+      "description": "对称、几何纹样、层叠边框与装饰性字体；首批以 Art Deco 为清楚的分支",
+      "reference_ids": [
+        "W04",
+        "T04",
+        "V18"
+      ],
+      "entry_path": "styles.md#s17"
+    },
+    {
+      "id": "S18",
+      "name": "中国古典",
+      "name_en": "Chinese classical",
+      "family_id": "culture-ornament",
+      "default_priority": "regular",
+      "description": "从中国传统空间、器物、书画装裱及纹样中建立画面秩序",
+      "reference_ids": [
+        "V13",
+        "T05"
+      ],
+      "entry_path": "styles.md#s18"
+    },
+    {
+      "id": "S19",
+      "name": "水墨写意",
+      "name_en": "Expressive ink",
+      "family_id": "culture-ornament",
+      "default_priority": "regular",
+      "description": "笔触、墨色、纸面和留白组织画面，可以是传统也可以是当代",
+      "reference_ids": [
+        "T05"
+      ],
+      "entry_path": "styles.md#s19"
+    },
+    {
+      "id": "S20",
+      "name": "复古桌面",
+      "name_en": "Retro desktop",
+      "family_id": "retro-interface",
+      "default_priority": "regular",
+      "description": "旧电脑窗口、播放器、按钮和系统字体",
+      "reference_ids": [
+        "W09"
+      ],
+      "entry_path": "styles.md#s20"
+    },
+    {
+      "id": "S21",
+      "name": "像素游戏",
+      "name_en": "Pixel game",
+      "family_id": "retro-interface",
+      "default_priority": "regular",
+      "description": "像素图形、游戏地图、精灵和像素文字",
+      "reference_ids": [
+        "W11"
+      ],
+      "entry_path": "styles.md#s21"
+    },
+    {
+      "id": "S22",
+      "name": "科幻界面",
+      "name_en": "Fictional interface",
+      "family_id": "retro-interface",
+      "default_priority": "regular",
+      "description": "虚构屏幕、系统读数、扫描与空间信息",
+      "reference_ids": [
+        "V12"
+      ],
+      "entry_path": "styles.md#s22"
+    },
+    {
+      "id": "S23",
+      "name": "新粗野",
+      "name_en": "Neo-brutalism",
+      "family_id": "experimental-abstract",
+      "default_priority": "exploratory",
+      "description": "强边框、大字、直接的颜色对比和刻意鲜明的模块关系",
+      "reference_ids": [
+        "W08"
+      ],
+      "entry_path": "styles.md#s23"
+    },
+    {
+      "id": "S24",
+      "name": "孟菲斯撞色",
+      "name_en": "Memphis color",
+      "family_id": "experimental-abstract",
+      "default_priority": "exploratory",
+      "description": "装饰几何、明快配色、自由排列，强调玩味",
+      "reference_ids": [
+        "V07"
+      ],
+      "entry_path": "styles.md#s24"
+    },
+    {
+      "id": "S25",
+      "name": "光学抽象",
+      "name_en": "Optical abstraction",
+      "family_id": "experimental-abstract",
+      "default_priority": "exploratory",
+      "description": "空间形体、光影、粒子或视觉错觉成为主角",
+      "reference_ids": [
+        "W12"
+      ],
+      "entry_path": "styles.md#s25"
+    }
+  ],
+  "references": [
+    {
+      "id": "W01",
+      "title": "Linear",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S02"
+      ],
+      "source_url": "https://linear.app/",
+      "entry_path": "references/w01.md"
+    },
+    {
+      "id": "W02",
+      "title": "Apple MacBook Air",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S05"
+      ],
+      "source_url": "https://www.apple.com/macbook-air/",
+      "entry_path": "references/w02.md"
+    },
+    {
+      "id": "W03",
+      "title": "io-808 在线鼓机",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S09-A"
+      ],
+      "source_url": "https://io808.com/",
+      "entry_path": "references/w03.md"
+    },
+    {
+      "id": "W04",
+      "title": "The Great Gatsby 音乐剧官网",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S17"
+      ],
+      "source_url": "https://broadwaygatsby.com/",
+      "entry_path": "references/w04.md"
+    },
+    {
+      "id": "W05",
+      "title": "Motion 滚动示例",
+      "kind": "frontend-implementation",
+      "style_ids": [
+        "S01",
+        "S04"
+      ],
+      "source_url": "https://motion.dev/docs/react-scroll-animations",
+      "entry_path": "references/w05.md"
+    },
+    {
+      "id": "W06",
+      "title": "GSAP Flip",
+      "kind": "frontend-implementation",
+      "style_ids": [
+        "S01"
+      ],
+      "source_url": "https://gsap.com/docs/v3/Plugins/Flip/",
+      "entry_path": "references/w06.md"
+    },
+    {
+      "id": "W07",
+      "title": "Codrops 3D Carousel",
+      "kind": "frontend-implementation",
+      "style_ids": [
+        "S05",
+        "S07"
+      ],
+      "source_url": "https://tympanus.net/Development/3DCarousel/",
+      "entry_path": "references/w07.md"
+    },
+    {
+      "id": "W08",
+      "title": "Gumroad",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S23"
+      ],
+      "source_url": "https://gumroad.com/",
+      "entry_path": "references/w08.md"
+    },
+    {
+      "id": "W09",
+      "title": "Poolsuite",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S20"
+      ],
+      "source_url": "https://poolsuite.net/",
+      "entry_path": "references/w09.md"
+    },
+    {
+      "id": "W10",
+      "title": "Bruno Simon",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S10"
+      ],
+      "source_url": "https://bruno-simon.com/",
+      "entry_path": "references/w10.md"
+    },
+    {
+      "id": "W11",
+      "title": "Stardew Valley",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S21"
+      ],
+      "source_url": "https://www.stardewvalley.net/",
+      "entry_path": "references/w11.md"
+    },
+    {
+      "id": "W12",
+      "title": "Lusion",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S25"
+      ],
+      "source_url": "https://lusion.co/",
+      "entry_path": "references/w12.md"
+    },
+    {
+      "id": "W13",
+      "title": "Figma",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S03"
+      ],
+      "source_url": "https://www.figma.com/",
+      "entry_path": "references/w13.md"
+    },
+    {
+      "id": "W14",
+      "title": "CHAGEE",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S11"
+      ],
+      "source_url": "https://www.chagee.com/en",
+      "entry_path": "references/w14.md"
+    },
+    {
+      "id": "W15",
+      "title": "Nicolas Jesenberger — Skeuomorphic Toggle Switch (vol. 2)",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S09-A"
+      ],
+      "source_url": "https://codepen.io/nicolasjesenberger/pen/NWOyxyO",
+      "entry_path": "references/w15.md"
+    },
+    {
+      "id": "W16",
+      "title": "Jon Kantner — Skeuomorphic Setting Switches",
+      "kind": "frontend-demo",
+      "style_ids": [
+        "S09-A"
+      ],
+      "source_url": "https://codepen.io/jkantner/pen/YzBddqx",
+      "entry_path": "references/w16.md"
+    },
+    {
+      "id": "V01",
+      "title": "BUCK — Microsoft App",
+      "kind": "motion-video",
+      "style_ids": [
+        "S05"
+      ],
+      "source_url": "https://buck.co/work/microsoft-app",
+      "entry_path": "references/v01.md"
+    },
+    {
+      "id": "V02",
+      "title": "BUCK — Microsoft Azure",
+      "kind": "motion-video",
+      "style_ids": [
+        "S08"
+      ],
+      "source_url": "https://buck.co/work/microsoft-azure",
+      "entry_path": "references/v02.md"
+    },
+    {
+      "id": "V03",
+      "title": "Tendril — Microsoft Future Vision",
+      "kind": "motion-video",
+      "style_ids": [
+        "S08"
+      ],
+      "source_url": "https://tendril.studio/work/ms-future-vision/",
+      "entry_path": "references/v03.md"
+    },
+    {
+      "id": "V04",
+      "title": "Tendril — Coinbase / CB1 Card",
+      "kind": "motion-video",
+      "style_ids": [
+        "S06"
+      ],
+      "source_url": "https://tendril.studio/work/coinbase/",
+      "entry_path": "references/v04.md"
+    },
+    {
+      "id": "V05",
+      "title": "Tendril — IBM LinuxONE",
+      "kind": "motion-video",
+      "style_ids": [
+        "S07"
+      ],
+      "source_url": "https://tendril.studio/work/ibm-linuxone/",
+      "entry_path": "references/v05.md"
+    },
+    {
+      "id": "V06",
+      "title": "BUCK — IBM Design Language",
+      "kind": "motion-video",
+      "style_ids": [
+        "S03",
+        "S04",
+        "S12"
+      ],
+      "source_url": "https://buck.co/work/ibm-design-language",
+      "entry_path": "references/v06.md"
+    },
+    {
+      "id": "V07",
+      "title": "Ordinary Folk — Webflow: Welcome to the Age of No-Code",
+      "kind": "motion-video",
+      "style_ids": [
+        "S07",
+        "S12",
+        "S24"
+      ],
+      "source_url": "https://www.ordinaryfolk.co/project/webflow-welcome-to-the-age-of-no-code",
+      "entry_path": "references/v07.md"
+    },
+    {
+      "id": "V08",
+      "title": "BUCK — Asana Brand Film",
+      "kind": "motion-video",
+      "style_ids": [
+        "S14"
+      ],
+      "source_url": "https://buck.co/work/asana-brand-film",
+      "entry_path": "references/v08.md"
+    },
+    {
+      "id": "V09",
+      "title": "BUCK — Headspace",
+      "kind": "motion-video",
+      "style_ids": [
+        "S13"
+      ],
+      "source_url": "https://buck.co/work/headspace",
+      "entry_path": "references/v09.md"
+    },
+    {
+      "id": "V10",
+      "title": "BUCK — Spotify Premium",
+      "kind": "motion-video",
+      "style_ids": [
+        "S16"
+      ],
+      "source_url": "https://buck.co/work/spotify-premium",
+      "entry_path": "references/v10.md"
+    },
+    {
+      "id": "V11",
+      "title": "Sony Pictures Imageworks — Spider-Verse 制作资料",
+      "kind": "motion-video",
+      "style_ids": [
+        "S15"
+      ],
+      "source_url": "https://www.imageworks.com/node/1371",
+      "entry_path": "references/v11.md"
+    },
+    {
+      "id": "V12",
+      "title": "Territory Studio — Blade Runner 2049",
+      "kind": "motion-video",
+      "style_ids": [
+        "S22"
+      ],
+      "source_url": "https://territorystudio.com/project/blade-runner-2049/",
+      "entry_path": "references/v12.md"
+    },
+    {
+      "id": "V13",
+      "title": "幻彩星图 —《国家宝藏》第一季",
+      "kind": "motion-video",
+      "style_ids": [
+        "S18"
+      ],
+      "source_url": "https://www.hcxtvip.com/gyhc_No1",
+      "entry_path": "references/v13.md"
+    },
+    {
+      "id": "V14",
+      "title": "Softoni — Product Advertising Promo in After Effects",
+      "kind": "video-tutorial",
+      "style_ids": [
+        "S06",
+        "S09-B"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=4GIWpAR9MT0",
+      "entry_path": "references/v14.md"
+    },
+    {
+      "id": "V15",
+      "title": "Motion Array — Minimal Corporate 预览",
+      "kind": "motion-video",
+      "style_ids": [
+        "S01"
+      ],
+      "source_url": "https://vimeo.com/187749077",
+      "entry_path": "references/v15.md"
+    },
+    {
+      "id": "V16",
+      "title": "BUCK — Mailchimp: The Cube",
+      "kind": "motion-video",
+      "style_ids": [
+        "S13"
+      ],
+      "source_url": "https://buck.co/work/mailchimp-the-cube",
+      "entry_path": "references/v16.md"
+    },
+    {
+      "id": "V17",
+      "title": "Aardman — Morph",
+      "kind": "motion-video",
+      "style_ids": [
+        "S10"
+      ],
+      "source_url": "https://aardman.com/film-tv-games/morph/",
+      "entry_path": "references/v17.md"
+    },
+    {
+      "id": "V18",
+      "title": "yU+co — Crazy Rich Asians",
+      "kind": "motion-video",
+      "style_ids": [
+        "S17"
+      ],
+      "source_url": "https://www.yuco.com/works/crazy-rich-asians",
+      "entry_path": "references/v18.md"
+    },
+    {
+      "id": "V19",
+      "title": "yU+co — Oz the Great and Powerful",
+      "kind": "motion-video",
+      "style_ids": [
+        "S10",
+        "S14"
+      ],
+      "source_url": "https://www.yuco.com/works/oz-the-great-and-powerful",
+      "entry_path": "references/v19.md"
+    },
+    {
+      "id": "V20",
+      "title": "ManvsMachine — B&O × Balenciaga Speaker Bag",
+      "kind": "motion-video",
+      "style_ids": [
+        "S06",
+        "S09-B"
+      ],
+      "source_url": "https://mvsm.com/project/speaker-bag",
+      "entry_path": "references/v20.md"
+    },
+    {
+      "id": "V21",
+      "title": "ManvsMachine — reMarkable Paper Pro",
+      "kind": "motion-video",
+      "style_ids": [
+        "S05",
+        "S09-B"
+      ],
+      "source_url": "https://mvsm.com/project/paper-pro",
+      "entry_path": "references/v21.md"
+    },
+    {
+      "id": "V22",
+      "title": "ManvsMachine — Logitech Logi Dock",
+      "kind": "motion-video",
+      "style_ids": [
+        "S09-B"
+      ],
+      "source_url": "https://mvsm.com/project/logi-dock",
+      "entry_path": "references/v22.md"
+    },
+    {
+      "id": "T01",
+      "title": "Dark Corporate Presentation — Stony Production",
+      "kind": "ae-template",
+      "style_ids": [
+        "S02",
+        "S11"
+      ],
+      "source_url": "https://motionarray.com/after-effects-templates/dark-corporate-presentation-89834/",
+      "entry_path": "references/t01.md"
+    },
+    {
+      "id": "T02",
+      "title": "Minimal Product Promo — RlgDesign",
+      "kind": "ae-template",
+      "style_ids": [
+        "S05",
+        "S07"
+      ],
+      "source_url": "https://motionarray.com/after-effects-templates/minimal-product-promo-1132729/",
+      "entry_path": "references/t02.md"
+    },
+    {
+      "id": "T03",
+      "title": "Minimal Promo — Motion Unity",
+      "kind": "ae-template",
+      "style_ids": [
+        "S01"
+      ],
+      "source_url": "https://motionarray.com/after-effects-templates/minimal-promo-75021/",
+      "entry_path": "references/t03.md"
+    },
+    {
+      "id": "T04",
+      "title": "Art Deco Style Titles — ProMotionSquad-2",
+      "kind": "ae-template",
+      "style_ids": [
+        "S17"
+      ],
+      "source_url": "https://videohive.net/item/art-deco-style-titles/51519437",
+      "entry_path": "references/t04.md"
+    },
+    {
+      "id": "T05",
+      "title": "Chinese Ink Wash Style Opening — UntrueLife",
+      "kind": "ae-template",
+      "style_ids": [
+        "S18",
+        "S19"
+      ],
+      "source_url": "https://videohive.net/item/chinese-ink-wash-style-opening/58480920",
+      "entry_path": "references/t05.md"
+    },
+    {
+      "id": "T06",
+      "title": "Creative Digital Agency Promo — TranSMaxX2",
+      "kind": "ae-template",
+      "style_ids": [
+        "S03",
+        "S07"
+      ],
+      "source_url": "https://videohive.net/item/creative-digital-agency-promo/57424751",
+      "entry_path": "references/t06.md"
+    }
+  ],
+  "projects": []
+}
