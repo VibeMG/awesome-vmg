@@ -1,6 +1,13 @@
 # 标准 VMG 工程
 
-**当前尚未发布完整源码工程。** `catalog.json` 中的 `projects` 已预留，后续加入工程即可被同一套方向检索找到。
+**当前收录2个恢复源码工程。** 两份均为作者上传的`.vmg`源码包，已核对包内完整性，尚未完成运行验收。
+
+| 工程 | 定位 | 风格关联 |
+| --- | --- | --- |
+| [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 |
+| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 |
+
+恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原。具体版本、素材许可和核验边界见各条目。
 
 完整工程是参考库长期的核心内容：人可以打开继续编辑，Agent 可以同时理解画面、源码、图层和时间轴。标准化落在工程交付和说明方式上，不限定每个风格只能有一个模板。
 
@@ -20,20 +27,8 @@
 
 ## 索引入口
 
-下面仅说明将来如何记录，**不是已经存在的工程或可下载地址**：
+`catalog.json.projects`使用稳定ID和`kind: vmg-project`。`source_path`（本地源码目录）、`package_path`（本地`.vmg`源码包）或`package_url`（外部源码包）至少提供一个实际入口。`preview_path`可指向包内附带的静态预览，`package_sha256`记录本地源码包校验值。
 
-```json
-{
-  "id": "vmg-liquid-glass-architecture",
-  "title": "液态玻璃 · 软件架构说明",
-  "kind": "vmg-project",
-  "style_ids": ["S08", "S04"],
-  "entry_path": "projects/vmg-liquid-glass-architecture/README.md",
-  "source_path": "projects/vmg-liquid-glass-architecture/source/",
-  "notes": "柔光科技塑造玻璃和空间观感，线性科技表达模块与连接关系。"
-}
-```
+`style_ids`可以包含多个方向，也可以为空；特殊用途案例仍通过工程列表检索，不为满足分类而强加风格。默认风格倾向不影响案例收录。
 
-有真实工程时才把条目加入 `catalog.json.projects`。`source_path` 与 `package_url` 至少提供一种实际源码入口；预览地址、版本说明与其他资料可在条目或详细页补充。一个方向可对应多份工程，一个工程可关联多个方向。
-
-此前的 VMG 液态玻璃架构图适合作为这个组合的工程候选。当前本库只记录其分类思路，不把未核验完整源码的编译预览发布为源码工程。
+本地源码包保持上传字节不变，通过VMG CLI解包；不要把`.vmgc`当成源码。执行`node scripts/check-catalog.mjs`检查目录结构，再用`python3 scripts/check-project-packages.py`检查源码归档及素材完整性。两者均不运行工程源码，也不代表视觉和运行验收。

@@ -828,5 +828,35 @@
       "entry_path": "references/t06.md"
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "id": "native-ai-flow",
+      "title": "原生AI工作流 · 液态玻璃架构演示",
+      "kind": "vmg-project",
+      "style_ids": [
+        "S08",
+        "S04"
+      ],
+      "entry_path": "projects/native-ai-flow/README.md",
+      "package_path": "projects/native-ai-flow/native-ai-flow.vmg",
+      "preview_path": "projects/native-ai-flow/preview.png",
+      "package_sha256": "05a21d58f7b22b0b59e3cd823172c778885b09b06095cacb22921b3dacf6ff64",
+      "template_version": "1.8.0",
+      "sdk_version": "0.0.6",
+      "notes": "液态玻璃卡片、分区与架构连线；关联柔光科技和线性科技。"
+    },
+    {
+      "id": "iphone-duo-unfold-2d",
+      "title": "Duo展开2D · 双屏设备案例",
+      "kind": "vmg-project",
+      "style_ids": [],
+      "entry_path": "projects/iphone-duo-unfold-2d/README.md",
+      "package_path": "projects/iphone-duo-unfold-2d/iphone-duo-unfold-2d.vmg",
+      "preview_path": "projects/iphone-duo-unfold-2d/preview.png",
+      "package_sha256": "79c7bad681bcea9a8670753ad2e85733f4ec50bba75702508d84defcb835281f",
+      "template_version": "1.5.0",
+      "sdk_version": "0.0.6",
+      "notes": "特殊用途案例：双屏展开、壁纸替换和锁屏内容，不归入现有风格方向。"
+    }
+  ]
 }

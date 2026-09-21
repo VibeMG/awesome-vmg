@@ -18,3 +18,4 @@ jobs:
         with:
           node-version: '22.13.0'
       - run: node scripts/check-catalog.mjs
+      - run: python3 scripts/check-project-packages.py
