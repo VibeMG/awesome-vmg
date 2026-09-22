@@ -1,11 +1,12 @@
 # 标准 VMG 工程
 
-**当前收录2个恢复源码工程。** 两份均为作者上传的`.vmg`源码包，已核对包内完整性，尚未完成运行验收。
+**当前收录3个源码工程。** 其中2个为恢复源码包，1个为带标准模式的人物金句模板；各自的打开、渲染与还原记录见条目说明。
 
 | 工程 | 定位 | 风格关联 | 配套 Skill |
 | --- | --- | --- | --- |
 | [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
 | [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
+| [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [工程说明](portrait-quote-glass/README.md) |
 
 恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原。具体版本、素材许可和核验边界见各条目。
 
