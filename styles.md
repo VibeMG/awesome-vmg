@@ -52,6 +52,8 @@ Dark business · 默认倾向：优先
 
 **代表参考：** [W01](references/w01.md) · [T01](references/t01.md)
 
+**完整工程：** [恒大历史业务版图](projects/evergrande-business-atlas/README.md)（S02＋S04，共面卡片与3D镜头巡游）。
+
 <a id="s03"></a>
 
 ### S03 · 编辑排版
@@ -75,6 +77,8 @@ Linear technology · 默认倾向：优先
 **动态与用途示例：** 连线生长、流程推进、结构展开；工作流、开发工具、技术说明。
 
 **代表参考：** [V06](references/v06.md) · [W05](references/w05.md)
+
+**完整工程：** [恒大历史业务版图](projects/evergrande-business-atlas/README.md)（S02＋S04，业务分支与连接线生长）。
 
 ## 空间与材质
 
