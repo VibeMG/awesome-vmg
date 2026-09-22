@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { readFile, realpath, stat } from 'node:fs/promises';
 import { isAbsolute, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -62,8 +63,16 @@ for (const entry of [...catalog.references, ...catalog.projects]) {
 for (const entry of catalog.references) url(entry.source_url, 'reference.source_url');
 for (const entry of catalog.projects) {
   assert.equal(entry.kind, 'vmg-project');
-  assert.ok(entry.source_path || entry.package_url, `Project needs a source directory or package URL: ${entry.id}`);
+  assert.ok(entry.source_path || entry.package_path || entry.package_url, `Project needs a source directory or package: ${entry.id}`);
   if (entry.source_path) await local(entry.source_path, true);
+  if (entry.package_path) {
+    await local(entry.package_path);
+    assert.ok(entry.package_path.endsWith('.vmg'), `Expected a .vmg source package: ${entry.id}`);
+    assert.match(entry.package_sha256 ?? '', /^[a-f0-9]{64}$/, `Missing source checksum: ${entry.id}`);
+    const bytes = await readFile(resolve(root, entry.package_path));
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.package_sha256, `Source checksum mismatch: ${entry.id}`);
+  }
+  if (entry.preview_path) await local(entry.preview_path);
   if (entry.package_url) url(entry.package_url, 'project.package_url');
 }
 console.log(`Catalog OK: ${catalog.styles.length} directions, ${catalog.references.length} references, ${catalog.projects.length} source projects.`);
