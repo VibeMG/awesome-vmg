@@ -1,6 +1,53 @@
 {
   "schema_version": 1,
   "repository": "https://github.com/VibeMG/awesome-vmg",
+  "use_cases": [
+    {
+      "name": "产品展示",
+      "description": "展示产品或设备的外观、形态变化和功能亮点。",
+      "examples": ["设备展开演示", "硬件外观介绍", "产品亮点展示"]
+    },
+    {
+      "name": "界面演示",
+      "description": "展示软件页面、应用界面及界面之间的变化。",
+      "examples": ["界面展示", "应用页面介绍", "功能操作演示"]
+    },
+    {
+      "name": "流程讲解",
+      "description": "说明步骤、操作顺序或工作流的先后关系。",
+      "examples": ["业务流程说明", "使用步骤", "工作流演示"]
+    },
+    {
+      "name": "架构说明",
+      "description": "说明系统、组织或业务模块之间的结构与关联。",
+      "examples": ["模块关系展示", "企业业务版图", "组织关系展示", "产品矩阵展示"]
+    },
+    {
+      "name": "数据呈现",
+      "description": "用数字、图表和变化过程传达指标与趋势。",
+      "examples": ["经营指标展示", "趋势变化", "统计图表"]
+    },
+    {
+      "name": "方案对比",
+      "description": "围绕同一问题呈现多个方案或前后状态的差异。",
+      "examples": ["功能对比", "参数对比", "改造前后对比"]
+    },
+    {
+      "name": "人物介绍",
+      "description": "介绍人物的姓名、身份、经历或与主题的关系。",
+      "examples": ["嘉宾介绍", "团队成员展示", "人物名片"]
+    },
+    {
+      "name": "观点展示",
+      "description": "突出一句话、一段引述或一个核心观点。",
+      "examples": ["访谈摘句", "金句展示", "观点强调"]
+    },
+    {
+      "name": "品牌演绎",
+      "description": "通过标志、名称、口号和标题建立品牌识别。",
+      "examples": ["标志动画", "品牌片头", "品牌口号展示"]
+    }
+  ],
   "families": [
     {
       "id": "order-type",
@@ -833,6 +880,7 @@
       "id": "native-ai-flow",
       "title": "原生AI工作流 · 液态玻璃架构演示",
       "kind": "vmg-project",
+      "use_cases": ["架构说明", "模块关系展示"],
       "style_ids": [
         "S08",
         "S04"
@@ -850,6 +898,7 @@
       "id": "iphone-duo-unfold-2d",
       "title": "Duo展开2D · 双屏设备案例",
       "kind": "vmg-project",
+      "use_cases": ["产品展示", "设备展开演示", "界面演示"],
       "style_ids": [],
       "entry_path": "projects/iphone-duo-unfold-2d/README.md",
       "skill_path": "projects/iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md",
@@ -889,6 +938,7 @@
       "id": "evergrande-business-atlas",
       "title": "恒大历史业务版图 · 深色企业架构",
       "kind": "vmg-project",
+      "use_cases": ["架构说明", "企业业务版图", "组织关系展示", "产品矩阵展示"],
       "style_ids": [
         "S02",
         "S04"

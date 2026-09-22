@@ -2,12 +2,14 @@
 
 **当前收录4个完整工程。** 包括2份恢复源码包、人物金句源码模板，以及保留原始TypeScript的恒大业务版图。各自的打开、编辑、渲染与还原记录见条目说明。
 
-| 工程 | 定位 | 风格关联 | 配套 Skill |
+| 工程 | 用途 | 风格关联 | 配套 Skill |
 | --- | --- | --- | --- |
-| [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
-| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
+| [原生AI工作流](native-ai-flow/README.md) | 架构说明、模块关系展示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
+| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 产品展示、设备展开演示、界面演示 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
 | [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [生成与改作指南](portrait-quote-glass/portrait-quote-glass_vmgskill.md) |
-| [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 | [生成与改作指南](evergrande-business-atlas/evergrande-business-atlas_vmgskill.md) |
+| [恒大历史业务版图](evergrande-business-atlas/README.md) | 架构说明、企业业务版图、组织关系展示、产品矩阵展示 | S02深色商务、S04线性科技 | [生成与改作指南](evergrande-business-atlas/evergrande-business-atlas_vmgskill.md) |
+
+未指定工程时，先按 [用途](../use-cases.md) 找候选，再结合风格与实际能力选择。增删模块、文字自适应、屏幕替换和镜头调整等能力见各工程 README 与配套指南，不由用途标签推断。
 
 前两份恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原；恒大业务版图保留了直接创作的TypeScript文件。具体版本、素材许可和核验边界见各条目。
 
@@ -19,7 +21,7 @@
 
 建议在 `projects/<project-id>/README.md` 说明：
 
-- 工程适用的内容、关联方向和预览。
+- 工程用途、实际可编辑范围、关联方向和预览。
 - 源码目录或 `.vmg` 包的位置，以及打开和改作方式。
 - 制作时的 CLI/SDK 版本、依赖和素材信息。
 - 授权、来源和需要使用者自行提供的资源。
@@ -40,5 +42,7 @@
 `catalog.json.projects`使用稳定ID和`kind: vmg-project`。`source_path`（本地源码目录）、`package_path`（本地`.vmg`源码包）或`package_url`（外部源码包）至少提供一个实际入口。`preview_path`可指向包内附带的静态预览，`package_sha256`记录本地源码包校验值。
 
 `style_ids`可以包含多个方向，也可以为空；特殊用途案例仍通过工程列表检索，不为满足分类而强加风格。默认风格倾向不影响案例收录。
+
+`use_cases` 使用字符串数组记录用途，与 `style_ids` 独立。可复用常见名称并补充具体标签，不受封闭枚举限制；没有该字段的条目仍可根据标题与说明找到。顶层常见用途词表及匹配方式见 [用途目录](../use-cases.md)。
 
 本地源码包保持上传字节不变，通过VMG CLI解包；不要把`.vmgc`当成源码。执行`node scripts/check-catalog.mjs`检查目录结构，再用`python3 scripts/check-project-packages.py`检查源码归档及素材完整性。两者均不运行工程源码，也不代表视觉和运行验收。

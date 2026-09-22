@@ -1,20 +1,23 @@
 # awesome-vmg
 
-Style directions, practical motion references, and complete editable VMG project references for people and agents.
+Use cases, style directions, practical motion references, and complete editable VMG project references for people and agents.
 
 给一句话动效创作提供具体的方向与参考，也为可以直接阅读和改作的完整 VMG 工程保留入口。
 
 ## 从这里开始
 
+- [用途目录](use-cases.md)：先明确要展示或讲清什么，按用途找模板。
 - [风格目录](styles.md)：26 个可选方向，其中 9 个是高频起点；实体拟物与材质写实分别组织。
-- [机器可读目录](catalog.json)：家族、方向、44 条实际参考及完整工程索引。
-- [创作与提问方式](authoring.md)：按用户意图和场景选方向，按需询问、找参考、创作。
+- [机器可读目录](catalog.json)：常见用途、风格家族与方向、44 条实际参考及完整工程索引。
+- [创作与提问方式](authoring.md)：按用途找候选，结合风格和实际能力选择，按需询问、找参考、创作。
 - [完整 VMG 工程](projects/README.md)：已收录4个完整工程：液态玻璃架构演示、Duo展开2D、人物金句，以及恒大历史业务版图。源码、版本与可选改作指南见各条目。
 - [贡献说明](CONTRIBUTING.md)：添加风格、外部案例或完整工程。
 
 ## 怎样选择
 
-用户自己的参考与明确偏好优先。有用途时，从全部方向按场景匹配；用途不明确时，更常从九个高频方向起步。`preferred / regular / exploratory` 是默认倾向，不是分数，也不限制用户选择。
+用户自己的参考与明确偏好优先。已指定模板时直接沿用；否则先理解用途，按工程的 `use_cases` 找候选，再结合风格与实际可编辑能力选择。一个模板可以对应多个用途，同一用途也可以有不同风格；无合适模板时继续采用参考或自主设计。
+
+用途说明“要完成什么表达”，风格说明“希望是什么观感”，实现能力记录在工程 README 和配套指南中。用途不明确且影响选择时，才按需询问少量具体选项。`preferred / regular / exploratory` 仅是风格信息不足时的默认倾向，不是模板分数，也不限制用户选择。
 
 家族用于归档，方向可组合，用途、动态和材料分别描述。例如：
 
@@ -29,7 +32,7 @@ Style directions, practical motion references, and complete editable VMG project
 
 ## 给 Agent 的入口
 
-先按需要读取 [catalog.json](https://raw.githubusercontent.com/VibeMG/awesome-vmg/main/catalog.json)，再读选中的 `entry_path` 和相应图片、视频、前端实现或工程。目录路径相对于本仓库根目录；`source_url` 指向外部作品。
+先按需要读取 [catalog.json](https://raw.githubusercontent.com/VibeMG/awesome-vmg/main/catalog.json)。顶层 `use_cases` 提供平铺的常见用途与例子，`projects[].use_cases` 沿用字符串数组；按含义匹配，具体标签和未标注条目仍可通过说明检索。再读候选的 `entry_path` 和相应图片、视频、前端实现或工程，确认实际用途与可编辑范围。目录路径相对于本仓库根目录；`source_url` 指向外部作品。
 
 无需安装 npm 包，也不需要先克隆整个仓库。公开搜索始终可用于具体行业、题材、文化语境和库外案例；找到参考后可简短说明方向并开始制作，不要求用户逐级确认。
 
