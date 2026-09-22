@@ -1,0 +1,143 @@
+{
+  "case_version": "1.0.0",
+  "verified_on": "2026-09-22",
+  "platform": "macOS arm64",
+  "cli_version": "0.0.7",
+  "sdk_version": "0.0.7",
+  "pnpm_version": "10.34.5",
+  "source_inventory_sha256": "c1de2f3e8514f4b5662583f81671db9dee0aece724f0f626579033fb0c1ddf6e",
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "size": 39,
+      "sha256": "b2464e462614d7aa1566e2bff0d9202816ffe091cd34eb9dcafac3499825f04f"
+    },
+    {
+      "path": ".vmg/originals/271037d6-e556-4651-a9e1-19bbe5a3b814",
+      "size": 1810533,
+      "sha256": "94484ccf10dca5b18d1026aac61177c291048d4837f0cd609af210d9f0b5d4b9"
+    },
+    {
+      "path": ".vmg/originals/5aefa20d-e4d9-4a38-b450-c9a85ce2ad54",
+      "size": 17423,
+      "sha256": "9d2989a2d81e319e55012333c942291817cf7ad509131e565a0d5f78b0cca9d3"
+    },
+    {
+      "path": ".vmg/originals/d7153d31-4e0d-4142-b8dd-b3e7a243a042",
+      "size": 721835,
+      "sha256": "006e620eea590bbed048e89958f49d893d4aa474b3afc5e580713a2ba6253968"
+    },
+    {
+      "path": ".vmg/originals/dddd402e-6168-41d7-934a-c95061f07584",
+      "size": 2837526,
+      "sha256": "effb5a9331a51af723c9739d86838a36ca09198631750f8c4bd38dabf3ffc194"
+    },
+    {
+      "path": ".vmg/originals/f0c8f189-53e6-4ed1-9029-92b0e7d36b27",
+      "size": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": ".vmg/resources.json",
+      "size": 1966,
+      "sha256": "766153f3107e785fe1347ce51c5252142b6a7525a25e6c250fe68e8e17f0b773"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 1755,
+      "sha256": "7c70a8bb18aa7a7487a945ebcb36a5485ddfde4f552d96272cb87cdcd7a830b1"
+    },
+    {
+      "path": "README.md",
+      "size": 1239,
+      "sha256": "86fd79a75cca29a2e90273210412f5c099ff04310b034f73f0295ebbfd46323d"
+    },
+    {
+      "path": "package.json",
+      "size": 394,
+      "sha256": "615dff60e525b987417b61385df1cdba5a2313cd504e7bc97d501a553143e0f5"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "size": 2631,
+      "sha256": "9b9daada87bf50eda99a3f6aef35c01225bc356183fc87bf21c48c12dc8007a3"
+    },
+    {
+      "path": "project.vmg.json",
+      "size": 96666,
+      "sha256": "d3698dff07901bb75639bb8d8290735def026d9d1890eedc6ba69781f12f9fce"
+    },
+    {
+      "path": "src/LICENSE-APACHE-2.0.txt",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "src/OFL-NotoSansSC.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "src/index.tsx",
+      "size": 17199,
+      "sha256": "15642445f5fce7d6b9a5a0b1721c2c9d0e5b933e5ffb91f514f4fd1cafead217"
+    },
+    {
+      "path": "src/scene.css",
+      "size": 5857,
+      "sha256": "acf90b2798d3043c517a100964c12009820e81febb85b882801c5c1a3ba67836"
+    },
+    {
+      "path": "src/source-notes.ts",
+      "size": 8206,
+      "sha256": "713275e7f3cc0a3cb9b13a35499682353723cfaefcdedba7fcb1644a68073ff4"
+    },
+    {
+      "path": "src/standard.ts",
+      "size": 29475,
+      "sha256": "2f5cd0ab846c5dea2b0d46678fb7f50cc85481de3d0e4c7e43196722cedd116c"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 365,
+      "sha256": "174b3dc38e7ffc9529c0a3bb02256a45e3d9a5f216a57769ddc014da0f3a083c"
+    },
+    {
+      "path": "vmg.config.ts",
+      "size": 186,
+      "sha256": "cd8ebea7ca9920fbce5155332ce9f1b215a0566b046dbf6680c41f3151682c1c"
+    }
+  ],
+  "previews": [
+    {
+      "path": "preview.png",
+      "time_seconds": 14.3,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6d850243a4d1b91780aeb240800f2043808536d74c998562dc3df179b1156dc7",
+      "renderer_download_saved": true
+    },
+    {
+      "path": "detail.png",
+      "time_seconds": 7.5,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2a426c4a0758c4979f34784707b032268d425c55dc1de18fc33e55ab97be8900",
+      "renderer_download_saved": true
+    }
+  ],
+  "checks": {
+    "dependency_install": "passed with frozen lockfile",
+    "typecheck": "passed",
+    "doctor": "passed",
+    "editor_open": "passed",
+    "brand_fields_edit_save": "applied and saved",
+    "undo": "saved; exact original browser document restored",
+    "png_render": "completed and downloaded at both listed times",
+    "source_pack": "passed",
+    "compiled_build": "passed",
+    "source_unpack": "saved project, source files and asset bytes matched",
+    "video_export": "not performed",
+    "other_platforms": "not verified"
+  }
+}

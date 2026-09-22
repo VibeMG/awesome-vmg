@@ -40,7 +40,7 @@ flowchart TD
 
 ## 怎样使用完整工程
 
-`catalog.json` 的 `projects` 收录实际交付的源码工程，说明见 [projects/README.md](projects/README.md)。当前收录2个恢复源码工程；先阅读条目的版本与核验范围。特殊用途案例允许`style_ids`为空，不应强制归入风格。
+`catalog.json` 的 `projects` 收录实际交付的源码工程，说明见 [projects/README.md](projects/README.md)。当前收录3个完整工程，包括2份恢复源码包和1份原始TypeScript企业架构工程；先阅读条目的版本与核验范围。特殊用途案例允许`style_ids`为空，不应强制归入风格。
 
 出现合适工程后，先看预览、用途、源代码位置、素材说明以及制作时的 CLI/SDK 版本。可读取实现作为参考，也可复制或解包为新项目后改作；原工程保留为参考。沿用已安装 VMG 的创作、编辑、打包方式，不要求安装本库提供的另一套运行时。
 

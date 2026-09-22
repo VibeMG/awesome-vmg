@@ -1,0 +1,3401 @@
+{
+  "assets": [
+    {
+      "id": "evergrande-logo",
+      "mimeType": "image/svg+xml",
+      "name": "evergrande-logo-clean.svg",
+      "resourceId": "5aefa20d-e4d9-4a38-b450-c9a85ce2ad54",
+      "sha256": "9d2989a2d81e319e55012333c942291817cf7ad509131e565a0d5f78b0cca9d3",
+      "size": 17423,
+      "type": "image"
+    },
+    {
+      "id": "residential",
+      "mimeType": "image/jpeg",
+      "name": "evergrande-residential.jpg",
+      "resourceId": "d7153d31-4e0d-4142-b8dd-b3e7a243a042",
+      "sha256": "006e620eea590bbed048e89958f49d893d4aa474b3afc5e580713a2ba6253968",
+      "size": 721835,
+      "type": "image"
+    },
+    {
+      "id": "hengchi",
+      "mimeType": "image/jpeg",
+      "name": "hengchi-1.jpg",
+      "resourceId": "271037d6-e556-4651-a9e1-19bbe5a3b814",
+      "sha256": "94484ccf10dca5b18d1026aac61177c291048d4837f0cd609af210d9f0b5d4b9",
+      "size": 1810533,
+      "type": "image"
+    },
+    {
+      "id": "evergrande-center",
+      "mimeType": "image/jpeg",
+      "name": "evergrande-center.jpg",
+      "resourceId": "dddd402e-6168-41d7-934a-c95061f07584",
+      "sha256": "effb5a9331a51af723c9739d86838a36ca09198631750f8c4bd38dabf3ffc194",
+      "size": 2837526,
+      "type": "image"
+    },
+    {
+      "id": "font-noto",
+      "mimeType": "font/ttf",
+      "name": "NotoSansSC.ttf",
+      "resourceId": "f0c8f189-53e6-4ed1-9029-92b0e7d36b27",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "size": 17772300,
+      "type": "font"
+    }
+  ],
+  "canvas": {
+    "background": "#070a0e",
+    "height": 1080,
+    "width": 1920
+  },
+  "componentRequirements": [
+    {
+      "id": "studio.evergrande.camera",
+      "version": "1.0.0"
+    },
+    {
+      "id": "studio.evergrande.card",
+      "version": "1.0.0"
+    },
+    {
+      "id": "studio.evergrande.link",
+      "version": "1.0.0"
+    },
+    {
+      "id": "studio.evergrande.caption",
+      "version": "1.0.0"
+    }
+  ],
+  "duration": 15,
+  "fps": 30,
+  "id": "vmg-46defd44-233d-44ac-8571-56e210eecc82",
+  "metadata": {
+    "camera": "CSS 3D perspective camera with editable orbit, dolly, truck and tilt tracks",
+    "fontLicense": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttps://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of collaborative font projects, to support the font creation\nefforts of academic and linguistic communities, and to provide a free and\nopen framework in which fonts may be shared and improved in partnership\nwith others.\n\nThe OFL allows the licensed fonts to be used, studied, modified and\nredistributed freely as long as they are not sold by themselves. The\nfonts, including any derivative works, can be bundled, embedded, \nredistributed and/or sold with any software provided that any reserved\nnames are not used by derivative works. The fonts and derivatives,\nhowever, cannot be released under any other type of license. The\nrequirement for fonts to remain under this license does not apply\nto any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\"Font Software\" refers to the set of files released by the Copyright\nHolder(s) under this license and clearly marked as such. This may\ninclude source files, build scripts and documentation.\n\n\"Reserved Font Name\" refers to any names specified as such after the\ncopyright statement(s).\n\n\"Original Version\" refers to the collection of Font Software components as\ndistributed by the Copyright Holder(s).\n\n\"Modified Version\" refers to any derivative made by adding to, deleting,\nor substituting -- in part or in whole -- any of the components of the\nOriginal Version, by changing formats or by porting the Font Software to a\nnew environment.\n\n\"Author\" refers to any designer, engineer, programmer, technical\nwriter or other person who contributed to the Font Software.\n\nPERMISSION & CONDITIONS\nPermission is hereby granted, free of charge, to any person obtaining\na copy of the Font Software, to use, study, copy, merge, embed, modify,\nredistribute, and sell modified and unmodified copies of the Font\nSoftware, subject to the following conditions:\n\n1) Neither the Font Software nor any of its individual components,\nin Original or Modified Versions, may be sold by itself.\n\n2) Original or Modified Versions of the Font Software may be bundled,\nredistributed and/or sold with any software, provided that each copy\ncontains the above copyright notice and this license. These can be\nincluded either as stand-alone text files, human-readable headers or\nin the appropriate machine-readable metadata fields within text or\nbinary files as long as those fields can be easily viewed by the user.\n\n3) No Modified Version of the Font Software may use the Reserved Font\nName(s) unless explicit written permission is granted by the corresponding\nCopyright Holder. This restriction only applies to the primary font name as\npresented to the users.\n\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\nSoftware shall not be used to promote, endorse or advertise any\nModified Version, except to acknowledge the contribution(s) of the\nCopyright Holder(s) and the Author(s) or with their explicit written\npermission.\n\n5) The Font Software, modified or unmodified, in part or in whole,\nmust be distributed entirely under this license, and must not be\ndistributed under any other license. The requirement for fonts to\nremain under this license does not apply to any document created\nusing the Font Software.\n\nTERMINATION\nThis license becomes null and void if any of the above conditions are\nnot met.\n\nDISCLAIMER\nTHE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n",
+    "imageCredits": "Wikimedia Commons: MNXANL; Windmemories; JustAnotherCarDesigner. CC BY-SA 4.0. Logo: PD geometry, trademark retained.",
+    "license": "Photographic material and adaptations: CC BY-SA 4.0. Noto Sans SC: SIL OFL 1.1.",
+    "period": "2020 年报披露口径，含 2021 年报告期后事项",
+    "scope": "历史业务架构示意，连接线表示业务关联，不表示全资股权关系。",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0429/2021042902970_c.pdf",
+    "sourceNotes": "# 资料与素材来源\n\n本动画采用中国恒大集团《2020 年年报》的业务版图披露口径。年报于 2021 年发布，部分产业说明包含 2021 年报告期后事项；动画不是截至 2020 年 12 月 31 日的完整法人股权架构，也不代表目前的经营状态。连线表达业务关联。\n\n## 架构资料\n\n- 中国恒大集团，2020 年年报，主席报告书，第 11–13 页（PDF 第 14–16 页）：https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0429/2021042902970_c.pdf\n- 八大平台：地产开发、新能源汽车、恒大物业、恒腾网络、房车宝、恒大童世界、大健康产业、恒大冰泉。\n- 物业管理、恒驰汽车、主题乐园等小卡片为业务/品牌说明，不代表独立法人。\n- 大健康产业：年报第 13 页列明由恒大汽车（00708.HK）上市公司规划运营。因此，大健康与恒大汽车是产业展示分类，不能据此推断彼此独立。\n- 恒大冰泉：年报第 13 页披露集团“目前拥有恒大冰泉 49% 股权”，业务含矿泉水、粮油、乳业和生鲜。画面明确标示“年报披露持股 49%”。\n- 恒腾网络名称与代码按当时资料展示，未改写为今天的公司名称。\n- 动画不使用年报中的收入、利润、资产等财务数据。\n\n## 图片\n\n1. Evergrande Group logo.svg\n   - 页面：https://commons.wikimedia.org/wiki/File:Evergrande_Group_logo.svg\n   - 原图：https://upload.wikimedia.org/wikipedia/commons/8/81/Evergrande_Group_logo.svg\n   - Commons 标注：公共领域的简单几何标志，商标权保留。向量整理者 Marsupilami。\n   - 处理：移除 XML 声明、外部 DTD 引用及注释，保留全部路径与颜色；工程使用 evergrande-logo-clean.svg。\n\n2. 20210305 Residential buildings developed by Evergrande in Yuanyang.jpg\n   - 作者：Windmemories\n   - 拍摄：2021-03-05，原阳平原新区恒大住宅项目\n   - 页面：https://commons.wikimedia.org/wiki/File:20210305_Residential_buildings_developed_by_Evergrande_in_Yuanyang.jpg\n   - 许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/\n   - 用途：地产卡片背景。渲染时裁切、降低饱和度与透明度、叠加渐变；原始文件保留。\n\n3. Hengchi 1 001.jpg\n   - 作者：JustAnotherCarDesigner\n   - 拍摄：2021-04-21，恒驰 1 展车\n   - 页面：https://commons.wikimedia.org/wiki/File:Hengchi_1_001.jpg\n   - 许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/\n   - 用途：恒大汽车卡片背景，作为当时恒驰品牌的示意；不表示该车已经量产。渲染时裁切、调色、叠加渐变；原始文件保留。\n\n4. 201908 Evergrande Center Chongqing.jpg\n   - 作者：MNXANL\n   - 拍摄：2019-08-16，重庆恒大中渝广场\n   - 页面：https://commons.wikimedia.org/wiki/File:201908_Evergrande_Center_Chongqing.jpg\n   - 许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/\n   - 用途：集团卡片中的建筑纹理；不表示集团总部。渲染时裁切、调色、叠加渐变；原始文件保留。\n\n上述照片及其本工程中的改编保持 CC BY-SA 4.0 许可与署名，随成片分发时请保留本说明。素材作者未为本动画背书。\n\n## 字体与图形\n\n- Noto Sans SC，SIL Open Font License 1.1。使用工作区已有原始字体；许可证见 OFL-NotoSansSC.txt。\n- 业务图标、线条、渐变、颗粒背景由工程代码绘制。\n- 用户提供的《小lin说动效.mp4》仅用于观察镜头、构图和节奏，没有复制其中的人像、声音或画面。\n",
+    "caseVersion": "1.0.0",
+    "caseRepository": "https://github.com/VibeMG/awesome-vmg/tree/main/projects/evergrande-business-atlas",
+    "styleIds": [
+      "S02",
+      "S04"
+    ]
+  },
+  "name": "恒大集团 · 2020 历史业务版图",
+  "nodes": [
+    {
+      "editable": [],
+      "effects": [],
+      "id": "camera-3d",
+      "name": "01 · 3D 摄像机 / 镜头路径",
+      "props": {
+        "componentId": "studio.evergrande.camera",
+        "componentVersion": "1.0.0",
+        "data": {
+          "background": "#070a0e",
+          "cameraX": 0,
+          "cameraY": -510,
+          "distance": 1500,
+          "focal": 1500,
+          "grain": 0.115,
+          "heading": "恒大集团 · 企业架构",
+          "note": "业务版图示意 · 含报告期后披露事项 · 连接线表示业务关联",
+          "period": "2020 年报口径",
+          "pitch": 4,
+          "roll": -1,
+          "yaw": -8,
+          "footerBrand": "EVERGRANDE",
+          "footerYear": "2020"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 960.9188034188035,
+        "y": 540.3525641025641
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "platforms",
+      "name": "02 · 集团与八大产业平台",
+      "props": {
+        "clip": false,
+        "gap": 0,
+        "layout": "free"
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "type": "group"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "details",
+      "name": "03 · 业务细分",
+      "props": {
+        "clip": false,
+        "gap": 0,
+        "layout": "free"
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "type": "group"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "connections",
+      "name": "04 · 架构连接线",
+      "props": {
+        "clip": false,
+        "gap": 0,
+        "layout": "free"
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "type": "group"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "captions",
+      "name": "05 · 解说字幕",
+      "props": {
+        "clip": false,
+        "gap": 0,
+        "layout": "free"
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "type": "group"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "group",
+      "name": "中国恒大集团",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "标志：Wikimedia Commons，PD；照片：MNXANL，CC BY-SA 4.0",
+          "depth": 0,
+          "detail": "历史业务版图 · 八大产业平台",
+          "english": "CHINA EVERGRANDE GROUP",
+          "icon": "estate",
+          "image": "evergrande-center",
+          "kind": "root",
+          "light": 1,
+          "logo": "evergrande-logo",
+          "number": "",
+          "tilt": 0,
+          "title": "恒大集团",
+          "yearLabel": "2020",
+          "yearCaption": "ANNUAL REPORT"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1100,
+        "x": 0,
+        "y": -540
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "estate",
+      "name": "恒大地产",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#176978",
+          "colorEnd": "#282e66",
+          "credit": "Windmemories / Wikimedia Commons / CC BY-SA 4.0",
+          "depth": 0,
+          "detail": "住宅开发 · 物业投资",
+          "english": "REAL ESTATE",
+          "icon": "estate",
+          "image": "residential",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "01",
+          "tilt": 0,
+          "title": "恒大地产",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": -1080,
+        "y": -60
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "property",
+      "name": "恒大物业",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "06666.HK",
+          "color": "#1b6870",
+          "colorEnd": "#283665",
+          "credit": "",
+          "depth": 0,
+          "detail": "物业管理 · 社区服务",
+          "english": "PROPERTY SERVICES",
+          "icon": "property",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "02",
+          "tilt": 0,
+          "title": "恒大物业",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": -360,
+        "y": -60
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "auto",
+      "name": "恒大汽车",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "00708.HK",
+          "color": "#20597a",
+          "colorEnd": "#34285b",
+          "credit": "JustAnotherCarDesigner / Wikimedia Commons / CC BY-SA 4.0",
+          "depth": 0,
+          "detail": "新能源汽车 · 恒驰",
+          "english": "NEW ENERGY VEHICLES",
+          "icon": "car",
+          "image": "hengchi",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "03",
+          "tilt": 0,
+          "title": "恒大汽车",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": 360,
+        "y": -60
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "tourism",
+      "name": "恒大童世界",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#24636c",
+          "colorEnd": "#49316c",
+          "credit": "",
+          "depth": 0,
+          "detail": "主题乐园 · 文化旅游",
+          "english": "CULTURAL TOURISM",
+          "icon": "tourism",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "04",
+          "tilt": 0,
+          "title": "恒大童世界",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": 1080,
+        "y": -60
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "network",
+      "name": "恒腾网络",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "00136.HK · 当时平台",
+          "color": "#3e3c75",
+          "colorEnd": "#59294e",
+          "credit": "",
+          "depth": 0,
+          "detail": "互联网流媒体 · 影视内容",
+          "english": "STREAMING & ENTERTAINMENT",
+          "icon": "film",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "05",
+          "tilt": 0,
+          "title": "恒腾网络",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": -1080,
+        "y": 600
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "fcb",
+      "name": "房车宝",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#3d4675",
+          "colorEnd": "#4d2c5b",
+          "credit": "",
+          "depth": 0,
+          "detail": "房产与汽车交易平台",
+          "english": "FANGCHEBAO",
+          "icon": "trade",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "06",
+          "tilt": 0,
+          "title": "房车宝",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": -360,
+        "y": 600
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "health",
+      "name": "大健康产业",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "恒大汽车平台规划运营",
+          "color": "#3a566a",
+          "colorEnd": "#493560",
+          "credit": "",
+          "depth": 0,
+          "detail": "健康管理 · 养生养老",
+          "english": "HEALTH & WELLNESS",
+          "icon": "health",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "07",
+          "tilt": 0,
+          "title": "大健康产业",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": 360,
+        "y": 600
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "water",
+      "name": "恒大冰泉",
+      "parentId": "platforms",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "年报披露持股 49%",
+          "color": "#335d79",
+          "colorEnd": "#403064",
+          "credit": "",
+          "depth": 0,
+          "detail": "矿泉水 · 粮油等健康食品",
+          "english": "CONSUMER PRODUCTS",
+          "icon": "water",
+          "image": "",
+          "kind": "business",
+          "light": 1,
+          "logo": "",
+          "number": "08",
+          "tilt": 0,
+          "title": "恒大冰泉",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 210,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 600,
+        "x": 1080,
+        "y": 600
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "residential-business",
+      "name": "住宅开发",
+      "parentId": "details",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "",
+          "depth": 0,
+          "detail": "",
+          "english": "RESIDENTIAL DEVELOPMENT",
+          "icon": "estate",
+          "image": "",
+          "kind": "leaf",
+          "light": 1,
+          "logo": "",
+          "number": "",
+          "tilt": 0,
+          "title": "住宅开发",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 106,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 280,
+        "x": -1250,
+        "y": 242
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "investment-business",
+      "name": "物业投资",
+      "parentId": "details",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "",
+          "depth": 0,
+          "detail": "",
+          "english": "PROPERTY INVESTMENT",
+          "icon": "estate",
+          "image": "",
+          "kind": "leaf",
+          "light": 1,
+          "logo": "",
+          "number": "",
+          "tilt": 0,
+          "title": "物业投资",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 106,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 280,
+        "x": -910,
+        "y": 242
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "community",
+      "name": "社区服务",
+      "parentId": "details",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "",
+          "depth": 0,
+          "detail": "",
+          "english": "COMMUNITY SERVICES",
+          "icon": "estate",
+          "image": "",
+          "kind": "leaf",
+          "light": 1,
+          "logo": "",
+          "number": "",
+          "tilt": 0,
+          "title": "社区服务",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 106,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 360,
+        "x": -360,
+        "y": 242
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "hengchi-brand",
+      "name": "恒驰",
+      "parentId": "details",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "",
+          "depth": 0,
+          "detail": "",
+          "english": "HENGCHI",
+          "icon": "estate",
+          "image": "",
+          "kind": "leaf",
+          "light": 1,
+          "logo": "",
+          "number": "",
+          "tilt": 0,
+          "title": "恒驰",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 106,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 360,
+        "x": 360,
+        "y": 242
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "theme-parks",
+      "name": "主题乐园",
+      "parentId": "details",
+      "props": {
+        "componentId": "studio.evergrande.card",
+        "componentVersion": "1.0.0",
+        "data": {
+          "badge": "",
+          "color": "#16596b",
+          "colorEnd": "#292d66",
+          "credit": "",
+          "depth": 0,
+          "detail": "",
+          "english": "THEME PARKS",
+          "icon": "estate",
+          "image": "",
+          "kind": "leaf",
+          "light": 1,
+          "logo": "",
+          "number": "",
+          "tilt": 0,
+          "title": "主题乐园",
+          "yearLabel": "",
+          "yearCaption": ""
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 106,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 360,
+        "x": 1080,
+        "y": 242
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-estate",
+      "name": "连接 · group → estate",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": -300,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "estate"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-property",
+      "name": "连接 · group → property",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": -300,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "property"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-auto",
+      "name": "连接 · group → auto",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": -300,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "auto"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-tourism",
+      "name": "连接 · group → tourism",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": -300,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "tourism"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-network",
+      "name": "连接 · group → network",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": 425,
+          "progress": 1,
+          "route": "outside",
+          "thickness": 3.3,
+          "to": "network"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-fcb",
+      "name": "连接 · group → fcb",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": 425,
+          "progress": 1,
+          "route": "outside",
+          "thickness": 3.3,
+          "to": "fcb"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-health",
+      "name": "连接 · group → health",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": 425,
+          "progress": 1,
+          "route": "outside",
+          "thickness": 3.3,
+          "to": "health"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-water",
+      "name": "连接 · group → water",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "group",
+          "lane": 425,
+          "progress": 1,
+          "route": "outside",
+          "thickness": 3.3,
+          "to": "water"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-residential-business",
+      "name": "连接 · estate → residential-business",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "estate",
+          "lane": 142,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "residential-business"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-investment-business",
+      "name": "连接 · estate → investment-business",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "estate",
+          "lane": 142,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "investment-business"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-community",
+      "name": "连接 · property → community",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "property",
+          "lane": 142,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "community"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-hengchi-brand",
+      "name": "连接 · auto → hengchi-brand",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "auto",
+          "lane": 142,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "hengchi-brand"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "edge-theme-parks",
+      "name": "连接 · tourism → theme-parks",
+      "parentId": "connections",
+      "props": {
+        "componentId": "studio.evergrande.link",
+        "componentVersion": "1.0.0",
+        "data": {
+          "brightness": 0.78,
+          "color": "#dce8ed",
+          "from": "tourism",
+          "lane": 142,
+          "progress": 1,
+          "route": "direct",
+          "thickness": 3.3,
+          "to": "theme-parks"
+        }
+      },
+      "transform": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "height": 1080,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-1",
+      "name": "字幕 1 · 从地产出发，展开恒大的历史业务版图",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "01 / CHINA EVERGRANDE",
+          "text": "从地产出发，展开恒大的历史业务版图"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-2",
+      "name": "字幕 2 · 地产开发，是这张版图的起点",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "02 / REAL ESTATE",
+          "text": "地产开发，是这张版图的起点"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-3",
+      "name": "字幕 3 · 从房屋开发，延伸到物业服务",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "03 / PROPERTY SERVICES",
+          "text": "从房屋开发，延伸到物业服务"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-4",
+      "name": "字幕 4 · 再走向新能源汽车",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "04 / NEW ENERGY VEHICLES",
+          "text": "再走向新能源汽车"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-5",
+      "name": "字幕 5 · 以及文化旅游",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "05 / CULTURAL TOURISM",
+          "text": "以及文化旅游"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-6",
+      "name": "字幕 6 · 流媒体、房车交易、大健康与消费品",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "06 / DIVERSIFIED BUSINESSES",
+          "text": "流媒体、房车交易、大健康与消费品"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    },
+    {
+      "editable": [],
+      "effects": [],
+      "id": "caption-7",
+      "name": "字幕 7 · 八大产业平台，构成当时的恒大业务版图",
+      "parentId": "captions",
+      "props": {
+        "componentId": "studio.evergrande.caption",
+        "componentVersion": "1.0.0",
+        "data": {
+          "color": "#f1f4f5",
+          "kicker": "07 / THE COMPLETE PICTURE",
+          "text": "八大产业平台，构成当时的恒大业务版图"
+        }
+      },
+      "transform": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "height": 90,
+        "opacity": 1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "unit": "px",
+        "visible": true,
+        "width": 1580,
+        "x": 170,
+        "y": 910
+      },
+      "type": "custom"
+    }
+  ],
+  "playback": {
+    "end": 15,
+    "loop": false,
+    "start": 0
+  },
+  "schemaVersion": "2.0",
+  "sequences": [],
+  "tracks": [
+    {
+      "enabled": true,
+      "id": "track-estate-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-0",
+          "id": "key-estate-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-1.7",
+          "id": "key-estate-transform-opacity-1",
+          "time": 1.7,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-2.28",
+          "id": "key-estate-transform-opacity-2",
+          "time": 2.28,
+          "value": 1
+        }
+      ],
+      "nodeId": "estate",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-estate-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-estate-0",
+          "id": "key-edge-estate-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-estate-1.42",
+          "id": "key-edge-estate-props-data-progress-1",
+          "time": 1.42,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-estate-2.2199999999999998",
+          "id": "key-edge-estate-props-data-progress-2",
+          "time": 2.22,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-estate",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-property-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-0",
+          "id": "key-property-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-5.05",
+          "id": "key-property-transform-opacity-1",
+          "time": 5.05,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-5.63",
+          "id": "key-property-transform-opacity-2",
+          "time": 5.63,
+          "value": 1
+        }
+      ],
+      "nodeId": "property",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-property-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-property-0",
+          "id": "key-edge-property-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-property-4.77",
+          "id": "key-edge-property-props-data-progress-1",
+          "time": 4.77,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-property-5.57",
+          "id": "key-edge-property-props-data-progress-2",
+          "time": 5.57,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-property",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-auto-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-0",
+          "id": "key-auto-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-6.45",
+          "id": "key-auto-transform-opacity-1",
+          "time": 6.45,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-7.03",
+          "id": "key-auto-transform-opacity-2",
+          "time": 7.03,
+          "value": 1
+        }
+      ],
+      "nodeId": "auto",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-auto-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-auto-0",
+          "id": "key-edge-auto-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-auto-6.17",
+          "id": "key-edge-auto-props-data-progress-1",
+          "time": 6.17,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-auto-6.970000000000001",
+          "id": "key-edge-auto-props-data-progress-2",
+          "time": 6.970000000000001,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-auto",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-tourism-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-0",
+          "id": "key-tourism-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-7.8",
+          "id": "key-tourism-transform-opacity-1",
+          "time": 7.8,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-8.379999999999999",
+          "id": "key-tourism-transform-opacity-2",
+          "time": 8.379999999999999,
+          "value": 1
+        }
+      ],
+      "nodeId": "tourism",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-tourism-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-tourism-0",
+          "id": "key-edge-tourism-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-tourism-7.52",
+          "id": "key-edge-tourism-props-data-progress-1",
+          "time": 7.52,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-tourism-8.32",
+          "id": "key-edge-tourism-props-data-progress-2",
+          "time": 8.32,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-tourism",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-network-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-network-0",
+          "id": "key-network-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-network-9",
+          "id": "key-network-transform-opacity-1",
+          "time": 9,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-network-9.58",
+          "id": "key-network-transform-opacity-2",
+          "time": 9.58,
+          "value": 1
+        }
+      ],
+      "nodeId": "network",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-network-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-network-0",
+          "id": "key-edge-network-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-network-8.72",
+          "id": "key-edge-network-props-data-progress-1",
+          "time": 8.72,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-network-9.52",
+          "id": "key-edge-network-props-data-progress-2",
+          "time": 9.52,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-network",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-fcb-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-fcb-0",
+          "id": "key-fcb-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-fcb-9.13",
+          "id": "key-fcb-transform-opacity-1",
+          "time": 9.13,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-fcb-9.71",
+          "id": "key-fcb-transform-opacity-2",
+          "time": 9.71,
+          "value": 1
+        }
+      ],
+      "nodeId": "fcb",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-fcb-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-fcb-0",
+          "id": "key-edge-fcb-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-fcb-8.850000000000001",
+          "id": "key-edge-fcb-props-data-progress-1",
+          "time": 8.850000000000001,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-fcb-9.65",
+          "id": "key-edge-fcb-props-data-progress-2",
+          "time": 9.65,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-fcb",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-health-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-health-0",
+          "id": "key-health-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-health-9.26",
+          "id": "key-health-transform-opacity-1",
+          "time": 9.26,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-health-9.84",
+          "id": "key-health-transform-opacity-2",
+          "time": 9.84,
+          "value": 1
+        }
+      ],
+      "nodeId": "health",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-health-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-health-0",
+          "id": "key-edge-health-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-health-8.98",
+          "id": "key-edge-health-props-data-progress-1",
+          "time": 8.98,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-health-9.78",
+          "id": "key-edge-health-props-data-progress-2",
+          "time": 9.78,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-health",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-water-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-water-0",
+          "id": "key-water-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-water-9.39",
+          "id": "key-water-transform-opacity-1",
+          "time": 9.39,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-water-9.97",
+          "id": "key-water-transform-opacity-2",
+          "time": 9.97,
+          "value": 1
+        }
+      ],
+      "nodeId": "water",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-water-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-water-0",
+          "id": "key-edge-water-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-water-9.110000000000001",
+          "id": "key-edge-water-props-data-progress-1",
+          "time": 9.11,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-water-9.91",
+          "id": "key-edge-water-props-data-progress-2",
+          "time": 9.91,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-water",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-residential-business-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-residential-business-0",
+          "id": "key-residential-business-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-residential-business-3",
+          "id": "key-residential-business-transform-opacity-1",
+          "time": 3,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-residential-business-3.45",
+          "id": "key-residential-business-transform-opacity-2",
+          "time": 3.45,
+          "value": 1
+        }
+      ],
+      "nodeId": "residential-business",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-residential-business-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-residential-business-0",
+          "id": "key-edge-residential-business-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-residential-business-2.88",
+          "id": "key-edge-residential-business-props-data-progress-1",
+          "time": 2.88,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-residential-business-3.44",
+          "id": "key-edge-residential-business-props-data-progress-2",
+          "time": 3.44,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-residential-business",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-investment-business-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-investment-business-0",
+          "id": "key-investment-business-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-investment-business-3",
+          "id": "key-investment-business-transform-opacity-1",
+          "time": 3,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-investment-business-3.45",
+          "id": "key-investment-business-transform-opacity-2",
+          "time": 3.45,
+          "value": 1
+        }
+      ],
+      "nodeId": "investment-business",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-investment-business-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-investment-business-0",
+          "id": "key-edge-investment-business-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-investment-business-2.88",
+          "id": "key-edge-investment-business-props-data-progress-1",
+          "time": 2.88,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-investment-business-3.44",
+          "id": "key-edge-investment-business-props-data-progress-2",
+          "time": 3.44,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-investment-business",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-community-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-community-0",
+          "id": "key-community-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-community-5.57",
+          "id": "key-community-transform-opacity-1",
+          "time": 5.57,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-community-6.0200000000000005",
+          "id": "key-community-transform-opacity-2",
+          "time": 6.0200000000000005,
+          "value": 1
+        }
+      ],
+      "nodeId": "community",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-community-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-community-0",
+          "id": "key-edge-community-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-community-5.45",
+          "id": "key-edge-community-props-data-progress-1",
+          "time": 5.45,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-community-6.010000000000001",
+          "id": "key-edge-community-props-data-progress-2",
+          "time": 6.010000000000001,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-community",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-hengchi-brand-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-hengchi-brand-0",
+          "id": "key-hengchi-brand-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-hengchi-brand-6.970000000000001",
+          "id": "key-hengchi-brand-transform-opacity-1",
+          "time": 6.970000000000001,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-hengchi-brand-7.420000000000001",
+          "id": "key-hengchi-brand-transform-opacity-2",
+          "time": 7.420000000000001,
+          "value": 1
+        }
+      ],
+      "nodeId": "hengchi-brand",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-hengchi-brand-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-hengchi-brand-0",
+          "id": "key-edge-hengchi-brand-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-hengchi-brand-6.8500000000000005",
+          "id": "key-edge-hengchi-brand-props-data-progress-1",
+          "time": 6.8500000000000005,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-hengchi-brand-7.410000000000001",
+          "id": "key-edge-hengchi-brand-props-data-progress-2",
+          "time": 7.410000000000001,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-hengchi-brand",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-theme-parks-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-theme-parks-0",
+          "id": "key-theme-parks-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-theme-parks-8.32",
+          "id": "key-theme-parks-transform-opacity-1",
+          "time": 8.32,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-theme-parks-8.77",
+          "id": "key-theme-parks-transform-opacity-2",
+          "time": 8.77,
+          "value": 1
+        }
+      ],
+      "nodeId": "theme-parks",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-edge-theme-parks-props-data-progress",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-theme-parks-0",
+          "id": "key-edge-theme-parks-props-data-progress-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-theme-parks-8.200000000000001",
+          "id": "key-edge-theme-parks-props-data-progress-1",
+          "time": 8.200000000000001,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-edge-theme-parks-8.76",
+          "id": "key-edge-theme-parks-props-data-progress-2",
+          "time": 8.76,
+          "value": 1
+        }
+      ],
+      "nodeId": "edge-theme-parks",
+      "propertyPath": "props.data.progress"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-cameraX",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-cameraX-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-cameraX-1",
+          "time": 1.35,
+          "value": -25
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-cameraX-2",
+          "time": 2.8,
+          "value": -1110
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-cameraX-3",
+          "time": 4.2,
+          "value": -1080
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-cameraX-4",
+          "time": 5,
+          "value": -990
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-cameraX-5",
+          "time": 6.2,
+          "value": -310
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-cameraX-6",
+          "time": 7.5,
+          "value": 365
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-cameraX-7",
+          "time": 8.7,
+          "value": 1070
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-cameraX-8",
+          "time": 10.2,
+          "value": 450
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-cameraX-9",
+          "time": 11.45,
+          "value": -510
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-cameraX-10",
+          "time": 13.2,
+          "value": 60
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-cameraX-11",
+          "time": 15,
+          "value": 60
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.cameraX"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-cameraY",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-cameraY-0",
+          "time": 0,
+          "value": -510
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-cameraY-1",
+          "time": 1.35,
+          "value": -510
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-cameraY-2",
+          "time": 2.8,
+          "value": -15
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-cameraY-3",
+          "time": 4.2,
+          "value": 80
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-cameraY-4",
+          "time": 5,
+          "value": 100
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-cameraY-5",
+          "time": 6.2,
+          "value": -25
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-cameraY-6",
+          "time": 7.5,
+          "value": -20
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-cameraY-7",
+          "time": 8.7,
+          "value": -20
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-cameraY-8",
+          "time": 10.2,
+          "value": 525
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-cameraY-9",
+          "time": 11.45,
+          "value": 485
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-cameraY-10",
+          "time": 13.2,
+          "value": 25
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-cameraY-11",
+          "time": 15,
+          "value": 25
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.cameraY"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-distance",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-distance-0",
+          "time": 0,
+          "value": 1500
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-distance-1",
+          "time": 1.35,
+          "value": 1420
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-distance-2",
+          "time": 2.8,
+          "value": 1220
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-distance-3",
+          "time": 4.2,
+          "value": 1200
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-distance-4",
+          "time": 5,
+          "value": 1390
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-distance-5",
+          "time": 6.2,
+          "value": 1370
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-distance-6",
+          "time": 7.5,
+          "value": 1280
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-distance-7",
+          "time": 8.7,
+          "value": 1330
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-distance-8",
+          "time": 10.2,
+          "value": 1940
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-distance-9",
+          "time": 11.45,
+          "value": 2350
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-distance-10",
+          "time": 13.2,
+          "value": 2890
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-distance-11",
+          "time": 15,
+          "value": 2890
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.distance"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-yaw",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-yaw-0",
+          "time": 0,
+          "value": -8
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-yaw-1",
+          "time": 1.35,
+          "value": -11
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-yaw-2",
+          "time": 2.8,
+          "value": -20
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-yaw-3",
+          "time": 4.2,
+          "value": -14
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-yaw-4",
+          "time": 5,
+          "value": -8
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-yaw-5",
+          "time": 6.2,
+          "value": 8
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-yaw-6",
+          "time": 7.5,
+          "value": 18
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-yaw-7",
+          "time": 8.7,
+          "value": 14
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-yaw-8",
+          "time": 10.2,
+          "value": -17
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-yaw-9",
+          "time": 11.45,
+          "value": -9
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-yaw-10",
+          "time": 13.2,
+          "value": -6
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-yaw-11",
+          "time": 15,
+          "value": -4
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.yaw"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-pitch",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-pitch-0",
+          "time": 0,
+          "value": 4
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-pitch-1",
+          "time": 1.35,
+          "value": 3
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-pitch-2",
+          "time": 2.8,
+          "value": -7
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-pitch-3",
+          "time": 4.2,
+          "value": -4
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-pitch-4",
+          "time": 5,
+          "value": -4
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-pitch-5",
+          "time": 6.2,
+          "value": -5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-pitch-6",
+          "time": 7.5,
+          "value": -4
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-pitch-7",
+          "time": 8.7,
+          "value": 5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-pitch-8",
+          "time": 10.2,
+          "value": 9
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-pitch-9",
+          "time": 11.45,
+          "value": 9
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-pitch-10",
+          "time": 13.2,
+          "value": 4
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-pitch-11",
+          "time": 15,
+          "value": 3
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.pitch"
+    },
+    {
+      "enabled": true,
+      "id": "track-camera-3d-props-data-roll",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-0",
+          "id": "key-camera-3d-props-data-roll-0",
+          "time": 0,
+          "value": -1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-1.35",
+          "id": "key-camera-3d-props-data-roll-1",
+          "time": 1.35,
+          "value": -1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-2.8",
+          "id": "key-camera-3d-props-data-roll-2",
+          "time": 2.8,
+          "value": -1.5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-4.2",
+          "id": "key-camera-3d-props-data-roll-3",
+          "time": 4.2,
+          "value": -0.6
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-5",
+          "id": "key-camera-3d-props-data-roll-4",
+          "time": 5,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-6.2",
+          "id": "key-camera-3d-props-data-roll-5",
+          "time": 6.2,
+          "value": 0.8
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-7.5",
+          "id": "key-camera-3d-props-data-roll-6",
+          "time": 7.5,
+          "value": 1.5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-8.7",
+          "id": "key-camera-3d-props-data-roll-7",
+          "time": 8.7,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-10.2",
+          "id": "key-camera-3d-props-data-roll-8",
+          "time": 10.2,
+          "value": -0.5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-11.45",
+          "id": "key-camera-3d-props-data-roll-9",
+          "time": 11.45,
+          "value": -0.6
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-13.2",
+          "id": "key-camera-3d-props-data-roll-10",
+          "time": 13.2,
+          "value": -0.3
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-camera-3d-15",
+          "id": "key-camera-3d-props-data-roll-11",
+          "time": 15,
+          "value": 0
+        }
+      ],
+      "nodeId": "camera-3d",
+      "propertyPath": "props.data.roll"
+    },
+    {
+      "enabled": true,
+      "id": "track-group-props-data-light",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-group-0",
+          "id": "key-group-props-data-light-0",
+          "time": 0,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-group-1.5",
+          "id": "key-group-props-data-light-1",
+          "time": 1.5,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-group-2.8",
+          "id": "key-group-props-data-light-2",
+          "time": 2.8,
+          "value": 0.48
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-group-11.5",
+          "id": "key-group-props-data-light-3",
+          "time": 11.5,
+          "value": 0.55
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-group-13.2",
+          "id": "key-group-props-data-light-4",
+          "time": 13.2,
+          "value": 1
+        }
+      ],
+      "nodeId": "group",
+      "propertyPath": "props.data.light"
+    },
+    {
+      "enabled": true,
+      "id": "track-estate-props-data-light",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-0",
+          "id": "key-estate-props-data-light-0",
+          "time": 0,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-4.8",
+          "id": "key-estate-props-data-light-1",
+          "time": 4.8,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-6.1",
+          "id": "key-estate-props-data-light-2",
+          "time": 6.1,
+          "value": 0.42
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-11.8",
+          "id": "key-estate-props-data-light-3",
+          "time": 11.8,
+          "value": 0.5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-estate-13.2",
+          "id": "key-estate-props-data-light-4",
+          "time": 13.2,
+          "value": 1
+        }
+      ],
+      "nodeId": "estate",
+      "propertyPath": "props.data.light"
+    },
+    {
+      "enabled": true,
+      "id": "track-property-props-data-light",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-0",
+          "id": "key-property-props-data-light-0",
+          "time": 0,
+          "value": 0.72
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-5.4",
+          "id": "key-property-props-data-light-1",
+          "time": 5.4,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-6.5",
+          "id": "key-property-props-data-light-2",
+          "time": 6.5,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-7.5",
+          "id": "key-property-props-data-light-3",
+          "time": 7.5,
+          "value": 0.48
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-property-12.8",
+          "id": "key-property-props-data-light-4",
+          "time": 12.8,
+          "value": 1
+        }
+      ],
+      "nodeId": "property",
+      "propertyPath": "props.data.light"
+    },
+    {
+      "enabled": true,
+      "id": "track-auto-props-data-light",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-0",
+          "id": "key-auto-props-data-light-0",
+          "time": 0,
+          "value": 0.72
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-6.8",
+          "id": "key-auto-props-data-light-1",
+          "time": 6.8,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-8.1",
+          "id": "key-auto-props-data-light-2",
+          "time": 8.1,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-9.5",
+          "id": "key-auto-props-data-light-3",
+          "time": 9.5,
+          "value": 0.48
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-auto-12.8",
+          "id": "key-auto-props-data-light-4",
+          "time": 12.8,
+          "value": 1
+        }
+      ],
+      "nodeId": "auto",
+      "propertyPath": "props.data.light"
+    },
+    {
+      "enabled": true,
+      "id": "track-tourism-props-data-light",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-0",
+          "id": "key-tourism-props-data-light-0",
+          "time": 0,
+          "value": 0.72
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-8",
+          "id": "key-tourism-props-data-light-1",
+          "time": 8,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-9.1",
+          "id": "key-tourism-props-data-light-2",
+          "time": 9.1,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-10.5",
+          "id": "key-tourism-props-data-light-3",
+          "time": 10.5,
+          "value": 0.5
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-tourism-12.8",
+          "id": "key-tourism-props-data-light-4",
+          "time": 12.8,
+          "value": 1
+        }
+      ],
+      "nodeId": "tourism",
+      "propertyPath": "props.data.light"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-1-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-1-0",
+          "id": "key-caption-1-transform-opacity-0",
+          "time": 0,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-1-1.47",
+          "id": "key-caption-1-transform-opacity-1",
+          "time": 1.47,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-1-1.65",
+          "id": "key-caption-1-transform-opacity-2",
+          "time": 1.65,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-1",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-2-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-2-0",
+          "id": "key-caption-2-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-2-2",
+          "id": "key-caption-2-transform-opacity-1",
+          "time": 2,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-2-2.2",
+          "id": "key-caption-2-transform-opacity-2",
+          "time": 2.2,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-2-4.720000000000001",
+          "id": "key-caption-2-transform-opacity-3",
+          "time": 4.720000000000001,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-2-4.9",
+          "id": "key-caption-2-transform-opacity-4",
+          "time": 4.9,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-2",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-3-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-3-0",
+          "id": "key-caption-3-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-3-5.1",
+          "id": "key-caption-3-transform-opacity-1",
+          "time": 5.1,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-3-5.3",
+          "id": "key-caption-3-transform-opacity-2",
+          "time": 5.3,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-3-6.42",
+          "id": "key-caption-3-transform-opacity-3",
+          "time": 6.42,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-3-6.6",
+          "id": "key-caption-3-transform-opacity-4",
+          "time": 6.6,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-3",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-4-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-4-0",
+          "id": "key-caption-4-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-4-6.75",
+          "id": "key-caption-4-transform-opacity-1",
+          "time": 6.75,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-4-6.95",
+          "id": "key-caption-4-transform-opacity-2",
+          "time": 6.95,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-4-7.870000000000001",
+          "id": "key-caption-4-transform-opacity-3",
+          "time": 7.870000000000001,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-4-8.05",
+          "id": "key-caption-4-transform-opacity-4",
+          "time": 8.05,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-4",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-5-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-5-0",
+          "id": "key-caption-5-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-5-8.1",
+          "id": "key-caption-5-transform-opacity-1",
+          "time": 8.1,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-5-8.299999999999999",
+          "id": "key-caption-5-transform-opacity-2",
+          "time": 8.299999999999999,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-5-9.22",
+          "id": "key-caption-5-transform-opacity-3",
+          "time": 9.22,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-5-9.4",
+          "id": "key-caption-5-transform-opacity-4",
+          "time": 9.4,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-5",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-6-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-6-0",
+          "id": "key-caption-6-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-6-9.55",
+          "id": "key-caption-6-transform-opacity-1",
+          "time": 9.55,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-6-9.75",
+          "id": "key-caption-6-transform-opacity-2",
+          "time": 9.75,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-6-11.97",
+          "id": "key-caption-6-transform-opacity-3",
+          "time": 11.97,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-6-12.15",
+          "id": "key-caption-6-transform-opacity-4",
+          "time": 12.15,
+          "value": 0
+        }
+      ],
+      "nodeId": "caption-6",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "enabled": true,
+      "id": "track-caption-7-transform-opacity",
+      "keyframes": [
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-7-0",
+          "id": "key-caption-7-transform-opacity-0",
+          "time": 0,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-7-12.35",
+          "id": "key-caption-7-transform-opacity-1",
+          "time": 12.35,
+          "value": 0
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-7-12.549999999999999",
+          "id": "key-caption-7-transform-opacity-2",
+          "time": 12.55,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-7-14.82",
+          "id": "key-caption-7-transform-opacity-3",
+          "time": 14.82,
+          "value": 1
+        },
+        {
+          "easing": "sine-in-out",
+          "groupId": "pose-caption-7-15",
+          "id": "key-caption-7-transform-opacity-4",
+          "time": 15,
+          "value": 1
+        }
+      ],
+      "nodeId": "caption-7",
+      "propertyPath": "transform.opacity"
+    },
+    {
+      "id": "camera-3d:transform.x",
+      "nodeId": "camera-3d",
+      "propertyPath": "transform.x",
+      "enabled": true,
+      "keyframes": [
+        {
+          "id": "camera-3d:transform.x:kf",
+          "time": 7.6,
+          "value": 960.9188034188035,
+          "easing": "smooth",
+          "groupId": "camera-3d:geometry"
+        }
+      ]
+    },
+    {
+      "id": "camera-3d:transform.y",
+      "nodeId": "camera-3d",
+      "propertyPath": "transform.y",
+      "enabled": true,
+      "keyframes": [
+        {
+          "id": "camera-3d:transform.y:kf",
+          "time": 7.6,
+          "value": 540.3525641025641,
+          "easing": "smooth",
+          "groupId": "camera-3d:geometry"
+        }
+      ]
+    }
+  ]
+}
