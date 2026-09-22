@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
 | [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
-| [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [工程说明](portrait-quote-glass/README.md) |
+| [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [生成与改作指南](portrait-quote-glass/portrait-quote-glass_vmgskill.md) |
 | [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 | [改作说明](evergrande-business-atlas/README.md) |
 
 前两份恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原；恒大业务版图保留了直接创作的TypeScript文件。具体版本、素材许可和核验边界见各条目。
