@@ -2,11 +2,11 @@
 
 **当前收录3个完整工程。** 前两份为作者上传的恢复源码包，已核对包内完整性，尚未完成运行验收；恒大业务版图提供原始TypeScript源码目录，已执行CLI打开、渲染、编辑保存与构建。
 
-| 工程 | 定位 | 风格关联 |
-| --- | --- | --- |
-| [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 |
-| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 |
-| [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 |
+| 工程 | 定位 | 风格关联 | 配套 Skill |
+| --- | --- | --- | --- |
+| [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
+| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
+| [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 | —（改作说明见工程 README） |
 
 前两份恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原；恒大业务版图保留了直接创作的TypeScript文件。具体版本、素材许可和核验边界见各条目。
 
@@ -25,6 +25,14 @@
 - 若有多个版本，说明对应的源码与预览，避免把不同版本混用。
 
 源码可放在 `projects/<project-id>/source/`，包也可通过本仓库 Releases 等入口分发。按具体工程体积选择，不增加后端、CLI 模板协议或安装时下载机制。
+
+## 可选的模板 Skill
+
+复杂工程可以在同目录附带 `<模板名>_vmgskill.md`，统一使用 `_vmgskill.md` 后缀，并通过 `catalog.json.projects[].skill_path` 提供相对于仓库根目录的路径。指南按所选工程读取，不需要安装到用户的全局 Skill 目录；只有源码包时仍能正常参考和改作。
+
+指南记录适用模板/SDK 版本、关键节点与参数、实际联动关系，以及常见需求的修改示例。配套说明应对照同版本工程维护，说明实际验证范围。结构复杂时再链接必要的详细资料，不把所有工程说明一次性装入上下文。
+
+模板 Skill 帮助 Agent 把需求落实到源码和工程数据，用户仍可改变布局、风格、内容与运动；不增加主观评分或作品淘汰条件。通用 `vmg-author` 负责 VMG 操作流程，模板指南补充具体实现知识，遵循当前用户要求与已有操作权限。
 
 ## 索引入口
 
