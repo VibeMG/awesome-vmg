@@ -2,14 +2,14 @@
 
 **当前收录4个完整工程。** 包括2份恢复源码包、人物金句源码模板，以及保留原始TypeScript的恒大业务版图。各自的打开、编辑、渲染与还原记录见条目说明。
 
-| 工程 | 用途 | 风格关联 | 配套 Skill |
+| 工程 | 风格关联 | 辅助用途 | 配套 Skill |
 | --- | --- | --- | --- |
-| [原生AI工作流](native-ai-flow/README.md) | 架构说明、模块关系展示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
-| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 产品展示、设备展开演示、界面演示 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
-| [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [生成与改作指南](portrait-quote-glass/portrait-quote-glass_vmgskill.md) |
-| [恒大历史业务版图](evergrande-business-atlas/README.md) | 架构说明、企业业务版图、组织关系展示、产品矩阵展示 | S02深色商务、S04线性科技 | [生成与改作指南](evergrande-business-atlas/evergrande-business-atlas_vmgskill.md) |
+| [原生AI工作流](native-ai-flow/README.md) | S08柔光科技、S04线性科技 | 架构说明、模块关系展示 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
+| [Duo展开2D](iphone-duo-unfold-2d/README.md) | 不指定风格 | 产品展示、设备展开演示、界面演示 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
+| [人物金句](portrait-quote-glass/README.md) | S02深色商务、S08柔光科技 | 人物介绍、访谈摘句与观点展示 | [生成与改作指南](portrait-quote-glass/portrait-quote-glass_vmgskill.md) |
+| [恒大历史业务版图](evergrande-business-atlas/README.md) | S02深色商务、S04线性科技 | 架构说明、企业业务版图、组织关系展示、产品矩阵展示 | [生成与改作指南](evergrande-business-atlas/evergrande-business-atlas_vmgskill.md) |
 
-未指定工程时，先按 [用途](../use-cases.md) 找候选，再结合风格与实际能力选择。增删模块、文字自适应、屏幕替换和镜头调整等能力见各工程 README 与配套指南，不由用途标签推断。
+未指定工程时，优先按风格寻找参考，允许跨用途借鉴材质、卡片、镜头和动作。模型根据用户内容组织新动画，[用途](../use-cases.md) 只在需要时提供元素排布与关系的辅助资料。可整份改作，也可读取部分实现；增删模块、文字自适应、屏幕替换等能力及依赖见各工程 README 与配套指南，不由标签推断。
 
 前两份恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原；恒大业务版图保留了直接创作的TypeScript文件。具体版本、素材许可和核验边界见各条目。
 
@@ -33,7 +33,7 @@
 
 复杂工程可以在同目录附带 `<模板名>_vmgskill.md`，统一使用 `_vmgskill.md` 后缀，并通过 `catalog.json.projects[].skill_path` 提供相对于仓库根目录的路径。指南按所选工程读取，不需要安装到用户的全局 Skill 目录；只有源码包时仍能正常参考和改作。
 
-指南记录适用模板/SDK 版本、关键节点与参数、实际联动关系，以及常见需求的修改示例。配套说明应对照同版本工程维护，说明实际验证范围。结构复杂时再链接必要的详细资料，不把所有工程说明一次性装入上下文。
+指南记录适用模板/SDK 版本、可跨用途借鉴的视觉与动态做法、关键节点与参数，以及原工程的绑定关系。区分可以单独参考的设计方法与需要连同效果注册、资源和源码一起处理的实现，支持整份改作或局部借鉴。配套说明应对照同版本工程维护，说明实际验证范围。结构复杂时再链接必要的详细资料，不把所有工程说明一次性装入上下文。
 
 模板 Skill 帮助 Agent 把需求落实到源码和工程数据，用户仍可改变布局、风格、内容与运动；不增加主观评分或作品淘汰条件。通用 `vmg-author` 负责 VMG 操作流程，模板指南补充具体实现知识，遵循当前用户要求与已有操作权限。
 
@@ -43,6 +43,6 @@
 
 `style_ids`可以包含多个方向，也可以为空；特殊用途案例仍通过工程列表检索，不为满足分类而强加风格。默认风格倾向不影响案例收录。
 
-`use_cases` 使用字符串数组记录用途，与 `style_ids` 独立。可复用常见名称并补充具体标签，不受封闭枚举限制；没有该字段的条目仍可根据标题与说明找到。顶层常见用途词表及匹配方式见 [用途目录](../use-cases.md)。
+`use_cases` 使用字符串数组记录辅助用途，与 `style_ids` 独立，不作为风格参考的前置筛选。可复用常见名称并补充具体标签，不受封闭枚举限制；没有该字段的条目仍可使用。顶层常见用途词表及辅助查阅方式见 [用途目录](../use-cases.md)。
 
 本地源码包保持上传字节不变，通过VMG CLI解包；不要把`.vmgc`当成源码。执行`node scripts/check-catalog.mjs`检查目录结构，再用`python3 scripts/check-project-packages.py`检查源码归档及素材完整性。两者均不运行工程源码，也不代表视觉和运行验收。
