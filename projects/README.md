@@ -1,12 +1,13 @@
 # 标准 VMG 工程
 
-**当前收录3个完整工程。** 前两份为作者上传的恢复源码包，已核对包内完整性，尚未完成运行验收；恒大业务版图提供原始TypeScript源码目录，已执行CLI打开、渲染、编辑保存与构建。
+**当前收录4个完整工程。** 包括2份恢复源码包、人物金句源码模板，以及保留原始TypeScript的恒大业务版图。各自的打开、编辑、渲染与还原记录见条目说明。
 
 | 工程 | 定位 | 风格关联 | 配套 Skill |
 | --- | --- | --- | --- |
 | [原生AI工作流](native-ai-flow/README.md) | 液态玻璃架构演示 | S08柔光科技、S04线性科技 | [生成与改作指南](native-ai-flow/native-ai-flow_vmgskill.md) |
 | [Duo展开2D](iphone-duo-unfold-2d/README.md) | 双屏设备特殊案例 | 不指定风格 | [生成与改作指南](iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md) |
-| [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 | —（改作说明见工程 README） |
+| [人物金句](portrait-quote-glass/README.md) | 人物介绍、访谈摘句与观点展示 | S02深色商务、S08柔光科技 | [工程说明](portrait-quote-glass/README.md) |
+| [恒大历史业务版图](evergrande-business-atlas/README.md) | 共面企业架构与3D镜头巡游 | S02深色商务、S04线性科技 | [改作说明](evergrande-business-atlas/README.md) |
 
 前两份恢复源码可修改实现和工程数据，但不等于原始TypeScript逐字还原；恒大业务版图保留了直接创作的TypeScript文件。具体版本、素材许可和核验边界见各条目。
 

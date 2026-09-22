@@ -861,6 +861,30 @@
       "notes": "特殊用途案例：双屏展开、壁纸替换和锁屏内容，不归入现有风格方向。"
     },
     {
+      "id": "portrait-quote-glass",
+      "title": "人物金句 · 液态玻璃",
+      "kind": "vmg-project",
+      "style_ids": [
+        "S02",
+        "S08"
+      ],
+      "entry_path": "projects/portrait-quote-glass/README.md",
+      "package_url": "https://github.com/VibeMG/awesome-vmg/releases/download/portrait-quote-glass-v1.0.0/portrait-quote-glass.vmg",
+      "compiled_package_url": "https://github.com/VibeMG/awesome-vmg/releases/download/portrait-quote-glass-v1.0.0/portrait-quote-glass.vmgc",
+      "preview_path": "projects/portrait-quote-glass/preview.png",
+      "project_version": "1.0.0",
+      "sdk_version": "0.0.7",
+      "cli_version": "0.0.7",
+      "use_cases": [
+        "人物介绍",
+        "访谈摘句",
+        "观点展示"
+      ],
+      "notes": "通用发光轮廓占位图；标准模式换图改字，卡片自动适配文字，路径展开、可调玻璃厚度与色散、人物渐隐、图片背景和轻微漂移。",
+      "package_sha256": "0d5eed31776552dac03c7048f794a2adee53dd415c7663adf97e059352b10196",
+      "compiled_package_sha256": "a15990adb7b2a9012931669e74fe8611e227a328be8fa4ce2ed232277ef8acd5"
+    },
+    {
       "id": "evergrande-business-atlas",
       "title": "恒大历史业务版图 · 深色企业架构",
       "kind": "vmg-project",
@@ -871,10 +895,10 @@
       "entry_path": "projects/evergrande-business-atlas/README.md",
       "source_path": "projects/evergrande-business-atlas/source",
       "preview_path": "projects/evergrande-business-atlas/preview.png",
-      "template_version": "1.0.0",
       "cli_version": "0.0.7",
       "sdk_version": "0.0.7",
-      "notes": "原始 TypeScript 源码；共面企业架构卡片、连线生长与 3D 镜头巡游。集团名、英文、年份、素材、字幕和镜头关键帧可编辑；内容采用恒大 2020 年报历史业务口径。"
+      "notes": "原始 TypeScript 源码；共面企业架构卡片、连线生长与 3D 镜头巡游。集团名、英文、年份、素材、字幕和镜头关键帧可编辑；内容采用恒大 2020 年报历史业务口径。",
+      "project_version": "1.0.0"
     }
   ]
 }
