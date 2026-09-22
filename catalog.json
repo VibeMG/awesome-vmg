@@ -838,6 +838,7 @@
         "S04"
       ],
       "entry_path": "projects/native-ai-flow/README.md",
+      "skill_path": "projects/native-ai-flow/native-ai-flow_vmgskill.md",
       "package_path": "projects/native-ai-flow/native-ai-flow.vmg",
       "preview_path": "projects/native-ai-flow/preview.png",
       "package_sha256": "05a21d58f7b22b0b59e3cd823172c778885b09b06095cacb22921b3dacf6ff64",
@@ -851,6 +852,7 @@
       "kind": "vmg-project",
       "style_ids": [],
       "entry_path": "projects/iphone-duo-unfold-2d/README.md",
+      "skill_path": "projects/iphone-duo-unfold-2d/iphone-duo-unfold-2d_vmgskill.md",
       "package_path": "projects/iphone-duo-unfold-2d/iphone-duo-unfold-2d.vmg",
       "preview_path": "projects/iphone-duo-unfold-2d/preview.png",
       "package_sha256": "79c7bad681bcea9a8670753ad2e85733f4ec50bba75702508d84defcb835281f",
