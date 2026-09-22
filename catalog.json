@@ -896,6 +896,7 @@
       "entry_path": "projects/evergrande-business-atlas/README.md",
       "source_path": "projects/evergrande-business-atlas/source",
       "preview_path": "projects/evergrande-business-atlas/preview.png",
+      "skill_path": "projects/evergrande-business-atlas/evergrande-business-atlas_vmgskill.md",
       "cli_version": "0.0.7",
       "sdk_version": "0.0.7",
       "notes": "原始 TypeScript 源码；共面企业架构卡片、连线生长与 3D 镜头巡游。集团名、英文、年份、素材、字幕和镜头关键帧可编辑；内容采用恒大 2020 年报历史业务口径。",

@@ -53,6 +53,8 @@ vmg build . -o ../business-atlas-edited.vmgc --assets include
 
 ### 给 Agent 的实现入口
 
+配套 [生成与改作 Skill](evergrande-business-atlas_vmgskill.md) 记录具体节点、共面连线、摄影机与时间轴的联动，以及换企业、增加分支和调整镜头的示例。Agent 可通过 `catalog.json` 中本案例的 `skill_path` 按需读取，无需全局安装。
+
 | 要改的内容 | 入口 |
 | --- | --- |
 | 文字、素材绑定、位置和关键帧 | `source/project.vmg.json`，运行时优先使用 VMG Agent 事务 |
